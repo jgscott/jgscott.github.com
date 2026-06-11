@@ -1,0 +1,62 @@
+---
+title: "James Scott"
+---
+
+::: {.hero}
+::: {.hero-text}
+<div class="kicker">Professor of Statistics and Data Sciences · University of Texas at Austin</div>
+
+# James Scott
+
+I am a statistician and data scientist at UT Austin, where I serve as Chair of the Department of Statistics and Data Sciences. My work spans Bayesian statistics, statistical machine learning, scalable computation, and applied data science in public health, medicine, policy, and business.
+
+<div class="button-row">
+<a href="research.html">Research</a>
+<a href="books.html">Books</a>
+<a href="teaching.html">Teaching</a>
+<a href="consulting.html">Consulting</a>
+<a href="assets/pdf/james-scott-cv.pdf">CV</a>
+</div>
+:::
+
+![](assets/img/james-scott.png){fig-alt="James Scott"}
+:::
+
+::: {.grid}
+::: {.card}
+## Research
+
+My research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.
+
+[Research →](research.html){.card-link}
+:::
+
+::: {.card}
+## Books
+
+I am coauthor of *AIQ: How People and Machines Are Smarter Together* and author of *Data Science in R: A Gentle Introduction*, a free textbook used in introductory data-science courses at UT and elsewhere.
+
+[Books →](books.html){.card-link}
+:::
+
+::: {.card}
+## Teaching
+
+I teach statistical modeling, data science, probability, inference, and machine learning to students in statistics, data science, business, economics, and related fields.
+
+[Teaching →](teaching.html){.card-link}
+:::
+
+::: {.card}
+## Consulting and expert work
+
+I consult on statistical, data-scientific, and machine-learning questions in litigation and other high-stakes settings, with particular attention to uncertainty, causal claims, sampling, model validity, and empirical evidence.
+
+[Consulting →](consulting.html){.card-link}
+:::
+:::
+
+## Contact
+
+Email: [james.scott@austin.utexas.edu](mailto:james.scott@austin.utexas.edu)  
+Department of Statistics and Data Sciences, University of Texas at Austin

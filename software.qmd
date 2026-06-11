@@ -1,0 +1,17 @@
+---
+title: "Software"
+---
+
+# Software
+
+[My GitHub page](https://github.com/jgscott) has the most up-to-date list of software projects and repositories. Below are selected research software projects developed by my students, collaborators, and me. Some are current research tools; others are historical packages associated with published work.
+
+## Selected projects
+
+- [sdp](https://github.com/tansey/sdp): deep nonparametric estimation of discrete conditional distributions via smoothed dyadic partitioning. By [Wesley Tansey](https://github.com/tansey).
+- [gfl](https://github.com/tansey/gfl): a fast and flexible algorithm for solving the graph-fused lasso on an arbitrary graph with arbitrary smooth convex loss. By [Wesley Tansey](https://github.com/tansey).
+- [smoothfdr](https://github.com/tansey/smoothfdr): methods exploiting spatial structure in multiple-testing problems on spatial lattices or arbitrary graphs. By [Wesley Tansey](https://github.com/tansey).
+- [FDRreg](https://github.com/jgscott/FDRreg): tools for false-discovery-rate problems, including false-discovery-rate regression.
+- [helloPG](https://github.com/jgscott/helloPG): an R package skeleton for incorporating the Pólya--Gamma distribution into your own code or package.
+- [BayesLogit](http://cran.r-project.org/web/packages/BayesLogit/index.html): Bayesian modeling of discrete outcomes via logistic and negative-binomial regression using Pólya--Gamma data augmentation. Developed by [Jesse Windle](http://users.ices.utexas.edu/~jwindle/).
+- [BayesBridge](http://cran.r-project.org/web/packages/BayesBridge/index.html): Bayesian bridge regression. Developed by [Jesse Windle](https://github.com/jwindle).

@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "James Scott"
+  site-url: "https://jgscott.github.io"
+  description: "James Scott, Professor of Statistics and Data Sciences at the University of Texas at Austin."
+  navbar:
+    pinned: true
+    left:
+      - text: Research
+        href: research.qmd
+      - text: Books
+        href: books.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Software
+        href: software.qmd
+      - text: Consulting
+        href: consulting.qmd
+      - text: CV
+        href: assets/pdf/james-scott-cv.pdf
+    right:
+      - icon: github
+        href: https://github.com/jgscott
+        aria-label: GitHub
+  page-footer:
+    left: "© James Scott"
+    right:
+      - text: "Email"
+        href: "mailto:james.scott@austin.utexas.edu"
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=Ww_1EOMAAAAJ"
+      - text: "GitHub"
+        href: "https://github.com/jgscott"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

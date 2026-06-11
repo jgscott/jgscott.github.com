@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>software · James Scott</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .site-nav { border-bottom: 1px solid var(--line); background: #fff; }
+    .site-nav-inner { max-width: var(--content-width); margin: 0 auto; padding: .8rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .site-title { font-weight: 700; color:#171717; text-decoration:none; }
+    .site-links { display:flex; flex-wrap:wrap; gap:.9rem; font-size:.94rem; }
+    .site-links a { color:#333; text-decoration:none; }
+    .site-links a:hover { color:var(--accent); }
+    .site-footer { border-top:1px solid var(--line); margin-top:2rem; }
+    .site-footer-inner { max-width: var(--content-width); margin:0 auto; padding:1rem 1.25rem; color:var(--muted); font-size:.92rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+    blockquote { border-left: 4px solid var(--line); margin-left:0; padding-left:1rem; color:#333; }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a class="site-title" href="index.html">James Scott</a>
+      <div class="site-links">
+        <a href="research.html">Research</a>
+        <a href="books.html">Books</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="software.html">Software</a>
+        <a href="consulting.html">Consulting</a>
+        <a href="assets/pdf/james-scott-cv.pdf">CV</a>
+      </div>
+    </div>
+  </nav>
+  <main class="content">
+    <h1 id="software">Software</h1>
+    <p><a href="https://github.com/jgscott">My GitHub page</a> has the
+    most up-to-date list of software projects and repositories. Below
+    are selected research software projects developed by my students,
+    collaborators, and me. Some are current research tools; others are
+    historical packages associated with published work.</p>
+    <h2 id="selected-projects">Selected projects</h2>
+    <ul>
+    <li><a href="https://github.com/tansey/sdp">sdp</a>: deep
+    nonparametric estimation of discrete conditional distributions via
+    smoothed dyadic partitioning. By <a
+    href="https://github.com/tansey">Wesley Tansey</a>.</li>
+    <li><a href="https://github.com/tansey/gfl">gfl</a>: a fast and
+    flexible algorithm for solving the graph-fused lasso on an arbitrary
+    graph with arbitrary smooth convex loss. By <a
+    href="https://github.com/tansey">Wesley Tansey</a>.</li>
+    <li><a href="https://github.com/tansey/smoothfdr">smoothfdr</a>:
+    methods exploiting spatial structure in multiple-testing problems on
+    spatial lattices or arbitrary graphs. By <a
+    href="https://github.com/tansey">Wesley Tansey</a>.</li>
+    <li><a href="https://github.com/jgscott/FDRreg">FDRreg</a>: tools
+    for false-discovery-rate problems, including false-discovery-rate
+    regression.</li>
+    <li><a href="https://github.com/jgscott/helloPG">helloPG</a>: an R
+    package skeleton for incorporating the Pólya–Gamma distribution into
+    your own code or package.</li>
+    <li><a
+    href="http://cran.r-project.org/web/packages/BayesLogit/index.html">BayesLogit</a>:
+    Bayesian modeling of discrete outcomes via logistic and
+    negative-binomial regression using Pólya–Gamma data augmentation.
+    Developed by <a href="http://users.ices.utexas.edu/~jwindle/">Jesse
+    Windle</a>.</li>
+    <li><a
+    href="http://cran.r-project.org/web/packages/BayesBridge/index.html">BayesBridge</a>:
+    Bayesian bridge regression. Developed by <a
+    href="https://github.com/jwindle">Jesse Windle</a>.</li>
+    </ul>
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <span>© James Scott</span>
+      <span><a href="mailto:james.scott@austin.utexas.edu">Email</a> · <a href="https://scholar.google.com/citations?user=Ww_1EOMAAAAJ">Google Scholar</a> · <a href="https://github.com/jgscott">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

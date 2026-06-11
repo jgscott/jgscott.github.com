@@ -1,0 +1,69 @@
+---
+title: "Consulting and Expert Work"
+---
+
+# Consulting and Expert Work
+
+::: {.lede}
+I consult on statistical, data-scientific, and machine-learning questions in litigation, regulatory, business, and policy settings. My role is to help attorneys and decision-makers understand what can and cannot be concluded from data, models, experiments, observational studies, algorithms, and statistical analyses.
+:::
+
+::: {.callout}
+This page is intentionally written as a shell. It gives the structure for a professional-facing consulting and litigation page without overclaiming specific testimony history, case outcomes, or confidential work. Replace bracketed language with final, verified language before publication.
+:::
+
+## Areas of focus
+
+I am especially interested in matters involving:
+
+- Statistical modeling, uncertainty quantification, and interpretation of empirical evidence
+- Bayesian statistics, hierarchical models, shrinkage methods, and high-dimensional inference
+- Machine learning, algorithmic decision-making, generative AI, and model validation
+- Causal inference, observational studies, confounding, selection bias, and study design
+- Sampling, surveys, missing data, measurement error, and data quality
+- Multiple testing, false discoveries, anomaly detection, and pattern-finding in large data sets
+- Public-health, medical, policy, labor, business, and technology-related data analyses
+
+## Litigation support
+
+I can assist counsel at different stages of a matter, including early case assessment, discovery planning, expert reports, deposition preparation, rebuttal analysis, and testimony. Typical work may include:
+
+- Evaluating the statistical validity of claims made by opposing experts
+- Reviewing analyses, code, data pipelines, and methodological assumptions
+- Designing or critiquing empirical studies
+- Translating technical statistical issues into clear language for attorneys, courts, regulators, or business audiences
+- Preparing affirmative expert opinions where the statistical evidence supports them
+
+## Expert testimony
+
+[Placeholder: Add a concise, verified statement about expert-witness experience. For example: “I have served as a consulting and testifying expert in matters involving statistical modeling, data analysis, and machine-learning evidence.”]
+
+For conflicts checks or inquiries, please contact me by email with the names of the parties, counsel, and a brief non-confidential description of the matter.
+
+## Representative questions
+
+Examples of questions where statistical expertise may be useful include:
+
+- Does the analysis actually support the causal claim being made?
+- Were the data sampled, filtered, linked, or transformed in a way that could bias the result?
+- Are the model assumptions appropriate for the decision being made?
+- Does a machine-learning system perform reliably on the relevant population?
+- Are reported error rates, confidence intervals, posterior intervals, or p-values being interpreted correctly?
+- Has the analyst accounted for multiple comparisons, selection effects, missingness, or measurement error?
+- Could an apparent pattern be explained by chance, data processing choices, or model instability?
+
+## Selected credentials
+
+- Professor of Statistics and Data Sciences, University of Texas at Austin
+- Chair, Department of Statistics and Data Sciences, University of Texas at Austin
+- Faculty appointments in Statistics and Data Sciences and the McCombs School of Business
+- Co-inventor of the horseshoe prior for Bayesian sparse inference
+- Co-developer of the Pólya--Gamma data augmentation framework for Bayesian logistic regression
+- Coauthor of *AIQ: How People and Machines Are Smarter Together*
+- Author of *Data Science in R: A Gentle Introduction*
+
+## Contact
+
+Email: [james.scott@austin.utexas.edu](mailto:james.scott@austin.utexas.edu)
+
+For legal matters, please include enough information for a conflicts check but avoid sending confidential material until an engagement is in place.
