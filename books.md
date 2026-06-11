@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books and Articles
+title: Books
 permalink: /books/
 ---
 
@@ -8,20 +8,8 @@ permalink: /books/
 
 <img src="{{ site.baseurl }}/assets/img/posts/AIQ_cover_medium.png" ALIGN="right" style="margin:15px 25px"/>
 
-[_AIQ: How People and Machines Are Smarter Together_](https://us.macmillan.com/books/9781250182159), by Nick Polson and James Scott   
 
-St. Martin's Press (2018)  
-
-[Amazon](https://www.amazon.com/dp/1250182158?tag=macmillan-20) - [Barnes and Noble](https://www.barnesandnoble.com/w/aiq-nick-polson/1126974730#/) - [IndieBound](https://www.indiebound.org/book/9781250182159)  - [Powell's](http://www.powells.com/book/aiq-how-people-machines-are-smarter-together-9781250182159)  
-
-From the jacket: 
-> AIQ is based on a simple premise: if you want to understand the modern world, then you have to know a little bit of the mathematical language spoken by intelligent machines. AIQ will teach you that language―but in an unconventional way, anchored in stories rather than equations.
-
-My co-author Nick Polson and I first thought of this book as a way to answer all the great questions our students had about artificial intelligence: how does a self-driving car work, how does Alexa understand what I’m saying, that sort of thing.  We noticed that there was a lot of writing about AI that was very technical, a lot that was borderline science-fiction [("the robots are coming for you!")](https://www.vanityfair.com/news/2017/03/elon-musk-billion-dollar-crusade-to-stop-ai-space-x), and a lot that was pop sociology -- but that if you wanted a non-technical version of how this stuff actually works, or sometimes doesn’t work, you were stuck.
-
-But then along the way, we realized that the public narratives surrounding AI were pretty broken.  On the one hand, you have this incredible amount of hype from people in the business world.  Companies are buying ads during the Super Bowl touting AI, they’re hanging billboards from the rafters of airports —- and they’re all claiming that AI is going to fix the health care system and sell more widgets and make your toilet smell like roses.  On the other hand, you have folks claiming that AI is going to destroy everything we care about, from our jobs to our privacy to our democracy.
-
-With AI, we’ve clearly reached the point where a non-expert can’t tell the difference between the hype and the reality.  So as educators, Nick and I came back to a simple bedrock: it’s really important for people to have a sense of what’s hot air and what’s genuine promise; what’s sci-fi dystopia and what’s a real policy issue. People can't do that without understanding how AI really works.  Hence [AIQ.](https://www.amazon.com/dp/1250182158?tag=macmillan-20)  
+[AIQ: How People and Machines Are Smarter Together](https://www.amazon.com/dp/1250182158?tag=macmillan-20) was published in 2018, several years before the arrival of ChatGPT and the current wave of public attention to generative AI. We did not get everything right, but I am proud of how well the book has held up. AIQ tried to explain artificial intelligence as a practical, statistically driven technology rather than as science fiction, and it anticipated many questions that now feel urgent: What happens when chatbots become fluent enough to seem human? How should we think about algorithmic decision-making in hiring, finance, medicine, and public policy? What happens when both sides of a system (say, HR managers screening résumés and applicants writing them) begin using AI against each other? The book remains an accessible account of how data, prediction, and human judgment interact in the real world. If you want a non-technical version of how this stuff actually works, or sometimes doesn’t work, it remains relevant. 
 
 
 ### Praise for AIQ
@@ -38,12 +26,7 @@ David Spiegelhalter, Professor of the Public Understanding of Risk at the Univer
 > At last, a book on the ideas behind AI and data science by people who really understand data. Cutting through the usual journalistic puff and myths, they clearly explain the underlying ideas behind the way that masses of data are being harnessed to build the algorithms that can carry out such extraordinary feats.  But they are also clear about the limitations and potential risks of these algorithms, and the need for society to scrutinise and even regulate their use.   A real page-turner, with fine stories and just enough detail: I learned a lot.
 
 
-# Data Science: A Gentle Introduction  
+# Data Science in R: A Gentle Introduction  
 
-I'm currently revising a textbook on data science.  Right now this available as the course packet to my [STA 371H course](https://jgscott.github.io/STA371H_Spring2018/resources/), but it will soon be a book.  
-
-
-# Articles and commentary
-
-[Commentary: Sweden Actually Protects its Residents’ Data. America Should Take Note.](http://fortune.com/2018/04/13/facebook-mark-zuckerberg-data-privacy-sweden/). _Fortune_, April 13, 2018.  
+[My free textbook on data science](https://bookdown.org/jgscott/DSGI/), used in a number of introductory classes at UT and elsewhere.  The book is structured as a series of walk-through lessons in R that will have you doing real data science in no time. It covers both the core ideas of data science as well as the concrete software skills that will help you translate those ideas into practice. Many of these lessons operate on the premise of “mimic first, understand later.” That is, I introduce bits of R code that do something interesting and ask you to mimic them word for word to see what they do, without necessarily understanding the details at first. The theory here is that if you see the “what” first, you’ll be more motivated to understand the “how” and “why.”
 

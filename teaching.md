@@ -4,11 +4,12 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Recent courses  
+All current and recent courses are run through Canvas, per UT requirements.  Below I have some archived course materials.  
+
+## Archived courses 
+
 - [ECO 394D: Probability and Statistics](https://github.com/jgscott/ECO394D)   
 - [STA 380: Predictive Modeling](https://github.com/jgscott/STA380)   
-
-## Older courses 
 - [ECO 395M: Data Mining](https://github.com/jgscott/ECO395M)   
 - [SDS 383D: Statistical Modeling 2](https://github.com/jgscott/SDS383D)       
 - [STA 371H: Statistics and Modeling Honors](/STA371H_Spring2018/)  
