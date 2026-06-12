@@ -100,7 +100,7 @@ a {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 22px;
-  background-image: url("assets/img/hay_banner.png");
+  background-image: url("/assets/img/hay_banner.png");
   background-size: cover;
   background-position: 58% center;
   box-shadow: 0 24px 70px rgba(34, 28, 20, 0.16);
