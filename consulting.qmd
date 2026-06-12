@@ -6,9 +6,9 @@ format:
     page-layout: full
 ---
 
-## Consulting and expert witness services
+# Consulting and Litigation
 
-I serve as a statistical expert in litigation matters where data analysis or statistical modeling are central to the legal questions. I conduct and evaluate analyses to assess what the data can support, what assumptions are required, and whether another party's conclusions are stronger than the evidence allows.
+I serve as a consulting statistical expert, often in litigation where data analysis or statistical modeling are central to the legal questions. I conduct and evaluate analyses to assess what the data can support, what assumptions are required, and whether another party's conclusions are stronger than the evidence allows.
 
 My work is most relevant when a case depends on samples, models, algorithms, audits, enforcement analyses, or large operational data sets. These issues often arise in disputes involving liability, damages, causation, compliance, fraud, collusion, class certification, or classwide proof.
 

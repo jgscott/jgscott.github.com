@@ -19,7 +19,7 @@ The University of Texas at Austin
 :::
 
 ::: {.home-intro}
-My work spans Bayesian statistics, statistical machine learning, AI, computation, and applied data science. I research, teach, write, and consult on how to draw reliable conclusions from complex data.
+My work spans statistics, machine learning, AI, computation, and applied data science. I research, teach, write, and consult on how to draw reliable conclusions from complex data.
 :::
 
 
