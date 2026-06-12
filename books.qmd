@@ -4,15 +4,14 @@ title: "Books"
 
 # Books
 
+## AIQ: How People and Machines are Smarter Together
+
 ::: {.book-block}
 ![](assets/img/aiq-cover.png){fig-alt="Cover of AIQ"}
 
 ::: {.book-text}
-## AIQ: How People and Machines Are Smarter Together
 
-[*AIQ: How People and Machines Are Smarter Together*](https://www.amazon.com/dp/1250182158?tag=macmillan-20) was published in 2018, several years before the arrival of ChatGPT and the current wave of public attention to generative AI. We did not get everything right, but I am proud of how well the book has held up. *AIQ* tried to explain artificial intelligence as a practical, statistically driven technology rather than as science fiction, and it anticipated many questions that now feel urgent: What happens when chatbots become fluent enough to seem human? How should we think about algorithmic decision-making in hiring, finance, medicine, and public policy? What happens when both sides of a system, such as HR managers screening résumés and applicants writing them, begin using AI against each other?
-
-The book remains an accessible account of how data, prediction, and human judgment interact in the real world. For a non-technical version of how this technology actually works, and sometimes does not work, it remains relevant.
+[*AIQ: How People and Machines Are Smarter Together*](https://www.amazon.com/dp/1250182158?tag=macmillan-20) was published in 2018, several years before the arrival of ChatGPT and the current wave of public attention to generative AI. We did not get everything right, but I am proud of how well the book has held up. *AIQ* tried to explain artificial intelligence as a practical, statistically driven technology rather than as science fiction, and it anticipated many questions that now feel urgent: What happens when chatbots become fluent enough to seem human? How should we think about algorithmic decision-making in hiring, finance, medicine, and public policy? What happens when both sides of a system, such as HR managers screening résumés and applicants writing them, begin using AI against each other? The book remains an accessible account of how data, prediction, and human judgment interact in the real world. For a non-technical version of how this technology actually works, and sometimes does not work, it remains relevant.
 :::
 :::
 
@@ -26,6 +25,9 @@ The book remains an accessible account of how data, prediction, and human judgme
 
 > “At last, a book on the ideas behind AI and data science by people who really understand data.”  
 > — David Spiegelhalter, Professor of the Public Understanding of Risk, University of Cambridge
+
+
+
 
 ## Data Science in R: A Gentle Introduction
 
