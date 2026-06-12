@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jgscott.github.io/software.html</loc>
+    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/books.html</loc>
+    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/teaching.html</loc>
+    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/research.html</loc>
+    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://jgscott.github.io/consulting.html</loc>
-    <lastmod>2026-06-11T19:50:47.871Z</lastmod>
+    <lastmod>2026-06-12T14:21:47.266Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/index.html</loc>
+    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
   </url>
 </urlset>

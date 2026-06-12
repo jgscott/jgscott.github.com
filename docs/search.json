@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "My GitHub page has the most up-to-date list of software projects and repositories. Below are selected research software projects developed by my students, collaborators, and me. Some are current research tools; others are historical packages associated with published work.\n\n\n\nsdp: deep nonparametric estimation of discrete conditional distributions via smoothed dyadic partitioning. By Wesley Tansey.\ngfl: a fast and flexible algorithm for solving the graph-fused lasso on an arbitrary graph with arbitrary smooth convex loss. By Wesley Tansey.\nsmoothfdr: methods exploiting spatial structure in multiple-testing problems on spatial lattices or arbitrary graphs. By Wesley Tansey.\nFDRreg: tools for false-discovery-rate problems, including false-discovery-rate regression.\nhelloPG: an R package skeleton for incorporating the Pólya–Gamma distribution into your own code or package.\nBayesLogit: Bayesian modeling of discrete outcomes via logistic and negative-binomial regression using Pólya–Gamma data augmentation. Developed by Jesse Windle.\nBayesBridge: Bayesian bridge regression. Developed by Jesse Windle."
+  },
+  {
+    "objectID": "software.html#selected-projects",
+    "href": "software.html#selected-projects",
+    "title": "Software",
+    "section": "",
+    "text": "sdp: deep nonparametric estimation of discrete conditional distributions via smoothed dyadic partitioning. By Wesley Tansey.\ngfl: a fast and flexible algorithm for solving the graph-fused lasso on an arbitrary graph with arbitrary smooth convex loss. By Wesley Tansey.\nsmoothfdr: methods exploiting spatial structure in multiple-testing problems on spatial lattices or arbitrary graphs. By Wesley Tansey.\nFDRreg: tools for false-discovery-rate problems, including false-discovery-rate regression.\nhelloPG: an R package skeleton for incorporating the Pólya–Gamma distribution into your own code or package.\nBayesLogit: Bayesian modeling of discrete outcomes via logistic and negative-binomial regression using Pólya–Gamma data augmentation. Developed by Jesse Windle.\nBayesBridge: Bayesian bridge regression. Developed by Jesse Windle."
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "AIQ: How People and Machines Are Smarter Together was published in 2018, several years before the arrival of ChatGPT and the current wave of public attention to generative AI. We did not get everything right, but I am proud of how well the book has held up. AIQ tried to explain artificial intelligence as a practical, statistically driven technology rather than as science fiction, and it anticipated many questions that now feel urgent: What happens when chatbots become fluent enough to seem human? How should we think about algorithmic decision-making in hiring, finance, medicine, and public policy? What happens when both sides of a system, such as HR managers screening résumés and applicants writing them, begin using AI against each other?\nThe book remains an accessible account of how data, prediction, and human judgment interact in the real world. For a non-technical version of how this technology actually works, and sometimes does not work, it remains relevant.\n\n\n\n\n\n“There comes a time in the life of a subject when someone steps up and writes the book about it.”\n— Steven D. Levitt, co-author of Freakonomics\n\n\n“Nick Polson and James Scott take us under the hood of AI and data science, showing that behind most algorithms is the story of a person trying to solve a problem and make the world better.”\n— Michael J. Casey, author of The Age of Cryptocurrency and The Truth Machine\n\n\n“At last, a book on the ideas behind AI and data science by people who really understand data.”\n— David Spiegelhalter, Professor of the Public Understanding of Risk, University of Cambridge\n\n\n\n\nData Science in R: A Gentle Introduction is my free textbook on data science, used in a number of introductory classes at UT and elsewhere. The book is structured as a series of walk-through lessons in R that have students doing real data science quickly. It covers both the core ideas of data science and the concrete software skills needed to translate those ideas into practice.\nMany lessons operate on the premise of “mimic first, understand later.” I introduce bits of R code that do something interesting and ask students to mimic them word for word to see what they do, without necessarily understanding every detail at first. The theory is that seeing the “what” first creates motivation to understand the “how” and “why.”"
+  },
+  {
+    "objectID": "books.html#aiq-how-people-and-machines-are-smarter-together",
+    "href": "books.html#aiq-how-people-and-machines-are-smarter-together",
+    "title": "Books",
+    "section": "",
+    "text": "AIQ: How People and Machines Are Smarter Together was published in 2018, several years before the arrival of ChatGPT and the current wave of public attention to generative AI. We did not get everything right, but I am proud of how well the book has held up. AIQ tried to explain artificial intelligence as a practical, statistically driven technology rather than as science fiction, and it anticipated many questions that now feel urgent: What happens when chatbots become fluent enough to seem human? How should we think about algorithmic decision-making in hiring, finance, medicine, and public policy? What happens when both sides of a system, such as HR managers screening résumés and applicants writing them, begin using AI against each other?\nThe book remains an accessible account of how data, prediction, and human judgment interact in the real world. For a non-technical version of how this technology actually works, and sometimes does not work, it remains relevant."
+  },
+  {
+    "objectID": "books.html#data-science-in-r-a-gentle-introduction",
+    "href": "books.html#data-science-in-r-a-gentle-introduction",
+    "title": "Books",
+    "section": "",
+    "text": "Data Science in R: A Gentle Introduction is my free textbook on data science, used in a number of introductory classes at UT and elsewhere. The book is structured as a series of walk-through lessons in R that have students doing real data science quickly. It covers both the core ideas of data science and the concrete software skills needed to translate those ideas into practice.\nMany lessons operate on the premise of “mimic first, understand later.” I introduce bits of R code that do something interesting and ask students to mimic them word for word to see what they do, without necessarily understanding every detail at first. The theory is that seeing the “what” first creates motivation to understand the “how” and “why.”"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "All current and recent courses are run through Canvas, per UT requirements. Below are selected public and archived materials.\n\n\n\nStatistical modeling\nProbability and inference\nData science\nPredictive modeling and machine learning\nBayesian statistics\nStatistical computing\n\n\n\n\n\nECO 394D: Probability and Statistics\nSTA 380: Predictive Modeling\nECO 395M: Data Mining\nSDS 383D: Statistical Modeling 2\nSTA 371H: Statistics and Modeling Honors\n\n\n\n\n\nData Science in R: A Gentle Introduction\nR tutorials\nWhat should a write-up look like?"
+  },
+  {
+    "objectID": "teaching.html#teaching-areas",
+    "href": "teaching.html#teaching-areas",
+    "title": "Teaching",
+    "section": "",
+    "text": "Statistical modeling\nProbability and inference\nData science\nPredictive modeling and machine learning\nBayesian statistics\nStatistical computing"
+  },
+  {
+    "objectID": "teaching.html#archived-courses",
+    "href": "teaching.html#archived-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "ECO 394D: Probability and Statistics\nSTA 380: Predictive Modeling\nECO 395M: Data Mining\nSDS 383D: Statistical Modeling 2\nSTA 371H: Statistics and Modeling Honors"
+  },
+  {
+    "objectID": "teaching.html#open-teaching-resources",
+    "href": "teaching.html#open-teaching-resources",
+    "title": "Teaching",
+    "section": "",
+    "text": "Data Science in R: A Gentle Introduction\nR tutorials\nWhat should a write-up look like?"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Google Scholar has an up-to-date list of my papers.\nMy research focuses on Bayesian statistics, scalable computation, and interdisciplinary applications. I have worked on foundational problems in Bayesian inference, including shrinkage priors, sparse inference, and multiple testing, and I was a co-inventor of the horseshoe prior, now widely used in Bayesian statistics and machine learning. I also co-developed the Pólya–Gamma data augmentation framework for fully Bayesian logistic regression. My applied work spans real-time disease forecasting, maternal and child health, telemedicine access, and public health and policy. Current projects focus on the statistical reliability of machine-learning methods, especially generative models and neural posterior estimation.\n\n\nMy methodological work includes Bayesian shrinkage, sparse inference, multiple testing, high-dimensional regression, and scalable posterior computation. A recurring theme is the development of Bayesian methods that preserve uncertainty while remaining usable in realistic data-analysis settings.\n\n\n\nRecent work studies the reliability of machine-learning methods, especially generative models, simulation-based inference, neural posterior estimation, and methods whose behavior depends on the fit between a statistical model and the real data-generating process.\n\n\n\nI collaborate on projects in health care, infectious disease, maternal and child health, telemedicine access, policy evaluation, security, neuroscience, finance, management, astronomy, molecular biology, political science, and linguistics. These projects typically involve observational data, uncertainty quantification, causal or policy-relevant claims, and careful communication of empirical evidence.\n\n\n\n\nBayesian shrinkage priors and sparse inference\nMultiple testing and false-discovery-rate methods\nPólya–Gamma data augmentation and Bayesian logistic regression\nStatistical reliability of generative models and simulation-based inference\nPublic-health applications, including disease forecasting and telemedicine access\nData science in business, policy, and interdisciplinary research\n\n\n\n\nI’ve had the privilege to work with some very smart, dedicated, and wonderful Ph.D. students over the years. Current advisees and alumni include:\n\nVansh Bansal, current Ph.D. student\nTianyu Chen, current Ph.D. student\nMin Chen, current Ph.D. student\nMauricio Garcia-Tec, now at Amazon AI\nJennifer Starling, now at Mathematica\nSpencer Woody, now at Amgen\nOscar Madrid Padilla, now at UCLA\nWesley Tansey, now at Memorial Sloan-Kettering\nLiang Sun, now at Microsoft\nJesse Windle, now at Hi-Fidelity Genetics"
+  },
+  {
+    "objectID": "research.html#bayesian-statistics-and-computation",
+    "href": "research.html#bayesian-statistics-and-computation",
+    "title": "Research",
+    "section": "",
+    "text": "My methodological work includes Bayesian shrinkage, sparse inference, multiple testing, high-dimensional regression, and scalable posterior computation. A recurring theme is the development of Bayesian methods that preserve uncertainty while remaining usable in realistic data-analysis settings."
+  },
+  {
+    "objectID": "research.html#statistical-machine-learning",
+    "href": "research.html#statistical-machine-learning",
+    "title": "Research",
+    "section": "",
+    "text": "Recent work studies the reliability of machine-learning methods, especially generative models, simulation-based inference, neural posterior estimation, and methods whose behavior depends on the fit between a statistical model and the real data-generating process."
+  },
+  {
+    "objectID": "research.html#applied-work",
+    "href": "research.html#applied-work",
+    "title": "Research",
+    "section": "",
+    "text": "I collaborate on projects in health care, infectious disease, maternal and child health, telemedicine access, policy evaluation, security, neuroscience, finance, management, astronomy, molecular biology, political science, and linguistics. These projects typically involve observational data, uncertainty quantification, causal or policy-relevant claims, and careful communication of empirical evidence."
+  },
+  {
+    "objectID": "research.html#selected-topics",
+    "href": "research.html#selected-topics",
+    "title": "Research",
+    "section": "",
+    "text": "Bayesian shrinkage priors and sparse inference\nMultiple testing and false-discovery-rate methods\nPólya–Gamma data augmentation and Bayesian logistic regression\nStatistical reliability of generative models and simulation-based inference\nPublic-health applications, including disease forecasting and telemedicine access\nData science in business, policy, and interdisciplinary research"
+  },
+  {
+    "objectID": "research.html#ph.d.-students-and-alumni",
+    "href": "research.html#ph.d.-students-and-alumni",
+    "title": "Research",
+    "section": "",
+    "text": "I’ve had the privilege to work with some very smart, dedicated, and wonderful Ph.D. students over the years. Current advisees and alumni include:\n\nVansh Bansal, current Ph.D. student\nTianyu Chen, current Ph.D. student\nMin Chen, current Ph.D. student\nMauricio Garcia-Tec, now at Amazon AI\nJennifer Starling, now at Mathematica\nSpencer Woody, now at Amgen\nOscar Madrid Padilla, now at UCLA\nWesley Tansey, now at Memorial Sloan-Kettering\nLiang Sun, now at Microsoft\nJesse Windle, now at Hi-Fidelity Genetics"
+  },
+  {
     "objectID": "consulting.html",
     "href": "consulting.html",
     "title": "Consulting and Expert Work",
@@ -47,5 +152,47 @@
     "title": "Consulting and Expert Work",
     "section": "",
     "text": "Email: james.scott@austin.utexas.edu\nFor legal matters, please include the names of the parties, counsel, and a brief non-confidential description of the matter so that I can conduct a conflicts check. Please do not send confidential material until an engagement is in place."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "James Scott",
+    "section": "",
+    "text": "Professor of Statistics and Data Sciences · University of Texas at Austin\n\n\n\nI am a statistician and data scientist at UT Austin, where I serve as Chair of the Department of Statistics and Data Sciences. My work spans Bayesian statistics, statistical machine learning, scalable computation, and applied data science in public health, medicine, policy, and business.\n\nResearch Books Teaching Consulting CV"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "James Scott",
+    "section": "Research",
+    "text": "Research\nMy research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.\nResearch →"
+  },
+  {
+    "objectID": "index.html#books",
+    "href": "index.html#books",
+    "title": "James Scott",
+    "section": "Books",
+    "text": "Books\nI am coauthor of AIQ: How People and Machines Are Smarter Together and author of Data Science in R: A Gentle Introduction, a free textbook used in introductory data-science courses at UT and elsewhere.\nBooks →"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "James Scott",
+    "section": "Teaching",
+    "text": "Teaching\nI teach statistical modeling, data science, probability, inference, and machine learning to students in statistics, data science, business, economics, and related fields.\nTeaching →"
+  },
+  {
+    "objectID": "index.html#consulting-and-expert-work",
+    "href": "index.html#consulting-and-expert-work",
+    "title": "James Scott",
+    "section": "Consulting and expert work",
+    "text": "Consulting and expert work\nI consult on statistical, data-scientific, and machine-learning questions in litigation and other high-stakes settings, with particular attention to uncertainty, causal claims, sampling, model validity, and empirical evidence.\nConsulting →"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "James Scott",
+    "section": "Contact",
+    "text": "Contact\nEmail: james.scott@austin.utexas.edu\nDepartment of Statistics and Data Sciences, University of Texas at Austin"
   }
 ]
