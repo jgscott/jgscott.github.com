@@ -9,14 +9,6 @@ title: "James Scott"
 # James Scott
 
 I am a statistician and data scientist at UT Austin, where I serve as Chair of the Department of Statistics and Data Sciences. My work spans Bayesian statistics, statistical machine learning, scalable computation, and applied data science in public health, medicine, policy, and business.
-
-<div class="button-row">
-<a href="research.html">Research</a>
-<a href="books.html">Books</a>
-<a href="teaching.html">Teaching</a>
-<a href="consulting.html">Consulting</a>
-<a href="assets/pdf/james-scott-cv.pdf">CV</a>
-</div>
 :::
 
 ![](assets/img/james-scott.png){fig-alt="James Scott"}
