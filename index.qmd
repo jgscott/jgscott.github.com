@@ -2,20 +2,32 @@
 title: "James Scott"
 ---
 
-::: {.hero}
-::: {.hero-text}
-<div class="kicker">Professor of Statistics and Data Sciences · University of Texas at Austin</div>
 
-# James Scott
 
-I am a statistician and data scientist at UT Austin, where I serve as Chair of the Department of Statistics and Data Sciences. My work spans Bayesian statistics, statistical machine learning, scalable computation, and applied data science in public health, medicine, policy, and business.
+::: {.home-hero}
+::: {.home-hero-overlay}
 :::
 
-![](assets/img/james-scott.png){fig-alt="James Scott"}
+::: {.home-hero-content}
+# James G. Scott
+
+Professor and Chair, Department of Statistics and Data Sciences  
+The University of Texas at Austin
+
+
 :::
+:::
+
+::: {.home-intro}
+My work spans Bayesian statistics, statistical machine learning, AI, computation, and applied data science. I research, teach, write, and consult on how to draw reliable conclusions from complex data.
+:::
+
+
 
 ::: {.grid}
 ::: {.card}
+
+
 ## Research
 
 My research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.
