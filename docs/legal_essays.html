@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Consulting and Litigation – James Scott</title>
+<title>Statistical Evidence in Litigation – James Scott</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./consulting.html" aria-current="page"> 
+    <a class="nav-link" href="./consulting.html"> 
 <span class="menu-text">Consulting</span></a>
   </li>  
   <li class="nav-item">
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Consulting and Litigation</h1>
+<h1 class="title">Statistical Evidence in Litigation</h1>
 </div>
 
 
@@ -156,66 +156,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I serve as a consulting statistical expert, often in litigation where data analysis or statistical modeling are central to the legal questions. I conduct and evaluate analyses to assess what the data can support, what assumptions are required, and whether another party’s conclusions are stronger than the evidence allows.</p>
-<p>My work is most relevant when a case depends on samples, models, algorithms, audits, enforcement analyses, or large operational data sets. These issues often arise in disputes involving liability, damages, causation, compliance, fraud, collusion, class certification, or classwide proof.</p>
-<p>For lawyers interested in these issues, I have collected a few <a href="./legal_essays.html">short essays on statistical evidence in litigation</a>, based on recurring questions that arise in expert-witness and consulting work.</p>
-<section id="qualifications" class="level2">
-<h2 data-anchor-id="qualifications">Qualifications</h2>
-<p>I am Professor and Chair of Statistics and Data Sciences at The University of Texas at Austin, with faculty appointments in Statistics and Data Sciences and the McCombs School of Business. My academic work is about how to draw reliable conclusions from complex data, spanning statistics, machine learning, AI, and interdisciplinary scientific collaborations.</p>
-<p>I take pride in explaining complex statistical and machine-learning ideas clearly to non-specialists. I have won multiple university teaching awards, including the Regents’ Outstanding Teaching Award, the highest teaching honor in the University of Texas System. I am also the coauthor of <a href="https://www.amazon.com/AIQ-People-Machines-Smarter-Together/dp/1250209013/ref=tmm_pap_swatch_0">AIQ: How People and Machines Are Smarter Together</a>, a book on the statistical foundations of artificial intelligence written for a broad audience and favorably reviewed by outlets such as the <em>Times</em> and <em>The Wall Street Journal</em>.</p>
+<p>Much of my consulting work involves a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.</p>
+<p>These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what lawyers should ask before treating a numerical result as legally meaningful.</p>
+<div class="essay-grid">
+<section id="anomaly-is-not-causation" class="level3 essay-card">
+<h3 data-anchor-id="anomaly-is-not-causation"><a href="./essays/anomaly-is-not-causation.html">Anomaly Is Not Causation</a></h3>
+<p>A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.</p>
 </section>
-<section id="when-statistical-questions-matter" class="level2">
-<h2 data-anchor-id="when-statistical-questions-matter">When statistical questions matter</h2>
-<p>Statistical questions become important in litigation when a party asks a court, agency, arbitrator, or jury to draw a conclusion from data. In some matters, counsel needs an affirmative analysis that can answer a specific factual question in a defensible way. In others, an opposing expert, regulator, agency, or other party has drawn a conclusion that requires careful statistical evaluation.</p>
-<p>The examples below illustrate statistical issues that arise frequently in litigation. Some are based on matters from my own consulting work, with details modified to preserve confidentiality. Others are included because they involve similar statistical questions in related litigation settings.</p>
-<section id="whether-a-statistical-anomaly-constitutes-evidence-of-misconduct" class="level3">
-<h3 data-anchor-id="whether-a-statistical-anomaly-constitutes-evidence-of-misconduct">Whether a statistical anomaly constitutes evidence of misconduct</h3>
-<p>Some disputes turn on whether an unusual data pattern is meaningful evidence of fraud, collusion, or other misconduct. The statistical task is to define an appropriate baseline, account for ordinary sources of variation, and assess whether alternative explanations have been addressed.</p>
-<p>For example, a state agency investigates whether two vendors illegally coordinated bids on maintenance contracts for local emergency-services infrastructure. The data include bid amounts, project characteristics, bidder identities, timing, geography, and historical bidding behavior. The analysis must address whether the observed bid patterns support an inference of collusion rather than ordinary variation, capacity constraints, shared reliance on common suppliers or bidding software, or project-specific factors.</p>
-<p>Related essay: <a href="./essays/anomaly-is-not-causation.html">Anomaly Is Not Causation</a></p>
-</section>
-<section id="whether-a-model-or-algorithm-performed-as-represented" class="level3">
-<h3 data-anchor-id="whether-a-model-or-algorithm-performed-as-represented">Whether a model or algorithm performed as represented</h3>
-<p>Commercial disputes involving predictive models, machine learning, or AI often turn on how performance should be measured. The statistical issues include the choice of accuracy metric, whether the available outcome data measure the claimed failure mode, and whether observed business outcomes can be attributed to the model rather than to implementation choices, customer behavior, product mix, or other operational factors.</p>
-<p>For example, a clothing retailer retains a software vendor to deploy a machine-learning system to make online size recommendations to customers. After the retailer observes high return rates attributed to size mismatch, a dispute arises over whether the vendor’s predictions met the promised standard of accuracy. The analysis addresses whether return data are a valid proxy for sizing errors, how prediction accuracy should be measured, and whether the observed outcomes show that the model was out of specification.</p>
-</section>
-<section id="whether-sampled-products-support-conclusions-about-an-underlying-process" class="level3">
-<h3 data-anchor-id="whether-sampled-products-support-conclusions-about-an-underlying-process">Whether sampled products support conclusions about an underlying process</h3>
-<p>In technical or IP disputes, parties may ask whether finished products reveal something about an underlying design, method, or manufacturing process. The statistical issues include how the products should be sampled, how measurement variation should be handled, and how strongly observed similarities or differences support conclusions about the process that produced them.</p>
-<p>For example, a semiconductor manufacturer alleges that a competitor copied a protected manufacturing process. Because the process itself cannot be observed directly in every relevant instance, the plaintiff samples and measures finished circuits from both manufacturers. The analysis must address whether the measurements thus obtained are consistent with equivalent manufacturing processes and how much uncertainty remains in that comparison.</p>
-</section>
-<section id="whether-a-sample-can-support-extrapolation-to-a-full-population" class="level3">
-<h3 data-anchor-id="whether-a-sample-can-support-extrapolation-to-a-full-population">Whether a sample can support extrapolation to a full population</h3>
-<p>Many disputes require conclusions about a large population that cannot be reviewed exhaustively. The statistical issues include the sampling frame, the selection process, the inspection or coding protocol, the treatment of ambiguous cases, and the uncertainty in any extrapolation to the full population.</p>
-<p>For example, a logistics company alleges that a warehouse operator used leased scanning and tracking equipment at unauthorized facilities. Because a complete inspection of all facilities and devices is impractical, the parties inspect a sample of locations and use the results to estimate the prevalence of unauthorized use and associated damages across the full network. The analysis must address how large a sample to take, and subsequently whether the sample actually taken supports extrapolation to the full population of facilities and devices.</p>
-</section>
-<section id="whether-an-audit-sample-supports-conclusions-about-classification-and-amounts" class="level3">
-<h3 data-anchor-id="whether-an-audit-sample-supports-conclusions-about-classification-and-amounts">Whether an audit sample supports conclusions about classification and amounts</h3>
-<p>Audits often require conclusions about a large number of transactions, entries, claims, or records that cannot all be reviewed individually. The statistical issues include how the sample was selected, how records were classified, how dollar amounts were estimated, and whether the resulting estimates can be generalized to the full population.</p>
-<p>For example, customs authorities audit a logistics firm to assess whether imported goods were classified correctly and whether duties were calculated properly. The audit depends on a sample of entries, with disputed issues involving both product classification and duty amounts. The analysis must address whether the sample was drawn from the right population, whether classification errors were coded consistently, and whether the estimated underpayment can be extrapolated to the full set of imports.</p>
-</section>
-<section id="whether-sampled-claims-can-support-reimbursement-or-damages-estimates" class="level3">
-<h3 data-anchor-id="whether-sampled-claims-can-support-reimbursement-or-damages-estimates">Whether sampled claims can support reimbursement or damages estimates</h3>
-<p>Health care, insurance, and reimbursement disputes often rely on samples of claims or records to estimate error rates, overpayments, underpayments, or damages. The statistical issues include the definition of the claim population, reviewer consistency, disputed classifications, stratification, and uncertainty in the extrapolated amount.</p>
-<p>For example, a payer audits a provider and concludes that a sample of claims contains documentation or coding errors. The payer seeks to extrapolate the estimated error rate to a much larger population of claims. The analysis must address whether the reviewed claims are representative of the target population, whether the review criteria were applied consistently, and whether the extrapolated amount reflects the uncertainty in the sampling process.</p>
-</section>
-<section id="whether-transaction-data-support-classwide-conclusions" class="level3">
-<h3 data-anchor-id="whether-transaction-data-support-classwide-conclusions">Whether transaction data support classwide conclusions</h3>
-<p>Class actions often turn on whether data can establish common impact, common exposure, or damages across a proposed class. The statistical issues include whether the data measure the relevant conduct, whether individual variation can be accounted for, and whether the proposed analysis supports classwide conclusions rather than merely aggregate patterns.</p>
-<p>For example, consumers allege that an online retailer’s pricing or recommendation system affected a large class of purchasers. The data include transaction records, customer histories, product attributes, pricing changes, and platform behavior over time. The analysis must address whether the alleged effect can be measured consistently across the proposed class and whether alternative explanations for observed differences have been accounted for.</p>
-</section>
-<section id="whether-incomplete-digital-records-support-conclusions-about-scope-or-impact" class="level3">
-<h3 data-anchor-id="whether-incomplete-digital-records-support-conclusions-about-scope-or-impact">Whether incomplete digital records support conclusions about scope or impact</h3>
-<p>Disputes involving digital systems often depend on logs, alerts, records, or event histories that are incomplete or difficult to reconcile across systems. The statistical issues include missing data, duplicate records, classification rules, sampling from large event sets, and uncertainty about the affected population.</p>
-<p>For example, after a cybersecurity incident, the parties dispute how many accounts, records, devices, or transactions were affected. The available data include system logs, security alerts, forensic records, and exports from different systems that do not align perfectly. The analysis must address how affected records are identified, how missing or inconsistent logs are handled, and whether a sampled review can support a broader estimate of scope.</p>
-</section>
-</section>
-<section id="contact" class="level2">
-<h2 data-anchor-id="contact">Contact</h2>
-<p>For litigation inquiries, please provide the party names, brief matter description if available, jurisdiction or forum, side represented, relevant deadlines, and a brief description of the statistical or data-related issue. This information is needed for an initial conflict check before any substantive discussion.</p>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

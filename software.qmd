@@ -2,7 +2,6 @@
 title: "Software"
 ---
 
-# Software
 
 [My GitHub page](https://github.com/jgscott) has the most up-to-date list of software projects and repositories. Below are selected research software projects developed by my students, collaborators, and me. Some are current research tools; others are historical packages associated with published work.
 

@@ -2,8 +2,6 @@
 title: "Books"
 ---
 
-# Books
-
 ## AIQ: How People and Machines are Smarter Together
 
 ::: {.book-block}

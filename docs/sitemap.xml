@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jgscott.github.io/software.html</loc>
-    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jgscott.github.io/books.html</loc>
-    <lastmod>2026-06-12T15:03:39.899Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jgscott.github.io/teaching.html</loc>
-    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jgscott.github.io/research.html</loc>
-    <lastmod>2026-06-11T19:11:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jgscott.github.io/consulting.html</loc>
-    <lastmod>2026-06-12T15:56:17.029Z</lastmod>
+    <loc>https://jgscott.github.io/legal_essays.html</loc>
+    <lastmod>2026-06-13T00:18:17.024Z</lastmod>
   </url>
   <url>
     <loc>https://jgscott.github.io/index.html</loc>
-    <lastmod>2026-06-12T15:50:44.241Z</lastmod>
+    <lastmod>2026-06-12T19:43:17.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/consulting.html</loc>
+    <lastmod>2026-06-13T00:11:56.523Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/research.html</loc>
+    <lastmod>2026-06-13T00:18:56.161Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/teaching.html</loc>
+    <lastmod>2026-06-13T00:19:06.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/essays/anomaly-is-not-causation.html</loc>
+    <lastmod>2026-06-13T00:06:44.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/books.html</loc>
+    <lastmod>2026-06-13T00:18:27.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/software.html</loc>
+    <lastmod>2026-06-13T00:19:00.972Z</lastmod>
   </url>
 </urlset>

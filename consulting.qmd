@@ -6,12 +6,12 @@ format:
     page-layout: full
 ---
 
-# Consulting and Litigation
 
 I serve as a consulting statistical expert, often in litigation where data analysis or statistical modeling are central to the legal questions. I conduct and evaluate analyses to assess what the data can support, what assumptions are required, and whether another party's conclusions are stronger than the evidence allows.
 
 My work is most relevant when a case depends on samples, models, algorithms, audits, enforcement analyses, or large operational data sets. These issues often arise in disputes involving liability, damages, causation, compliance, fraud, collusion, class certification, or classwide proof.
 
+For lawyers interested in these issues, I have collected a few [short essays on statistical evidence in litigation](legal_essays.qmd), based on recurring questions that arise in expert-witness and consulting work.
 
 ## Qualifications
 
@@ -29,7 +29,9 @@ The examples below illustrate statistical issues that arise frequently in litiga
 
 Some disputes turn on whether an unusual data pattern is meaningful evidence of fraud, collusion, or other misconduct. The statistical task is to define an appropriate baseline, account for ordinary sources of variation, and assess whether alternative explanations have been addressed.
 
-For example, a state agency investigates whether contractors coordinated bids on major infrastructure upgrades to the State Capitol Complex. The data include bid amounts, project characteristics, bidder identities, timing, geography, and historical bidding behavior. The analysis must address whether the observed bid patterns support an inference of collusion rather than ordinary variation, capacity constraints, shared reliance on common suppliers or bidding software, or project-specific factors.  
+For example, a state agency investigates whether two vendors illegally coordinated bids on maintenance contracts for local emergency-services infrastructure. The data include bid amounts, project characteristics, bidder identities, timing, geography, and historical bidding behavior. The analysis must address whether the observed bid patterns support an inference of collusion rather than ordinary variation, capacity constraints, shared reliance on common suppliers or bidding software, or project-specific factors.  
+
+Related essay: [Anomaly Is Not Causation](essays/anomaly-is-not-causation.qmd)
 
 ### Whether a model or algorithm performed as represented
 

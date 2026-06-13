@@ -1,5 +1,7 @@
 ---
-title: "James Scott"
+title: ""
+title-block-banner: false
+body-class: home
 ---
 
 

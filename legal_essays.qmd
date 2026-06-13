@@ -1,0 +1,21 @@
+---
+title: "Statistical Evidence in Litigation"
+title-block-banner: false
+page-layout: full
+toc: false
+---
+
+Much of my consulting work involves a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
+
+These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what lawyers should ask before treating a numerical result as legally meaningful.
+
+::: {.essay-grid}
+
+::: {.essay-card}
+### [Anomaly Is Not Causation](essays/anomaly-is-not-causation.qmd)
+
+A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.
+:::
+  
+:::
+  
