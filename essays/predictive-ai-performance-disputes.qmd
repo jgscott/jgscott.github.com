@@ -1,7 +1,6 @@
 ---
 title: "When AI Performance Becomes a Legal Dispute"
 description: "How lawyers should think about validation and causation when a deployed AI or machine learning system produces disappointing business results."
-date: "2025-04-03"
 author: "James G. Scott"
 title-block-banner: false
 page-layout: article

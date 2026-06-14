@@ -1,7 +1,6 @@
 ---
 title: "Anomaly Is Not Causation"
 description: "Why an unusual statistical pattern may justify scrutiny in litigation, but does not by itself identify the cause of the anomaly."
-date: "2025-02-12"
 author: "James G. Scott"
 title-block-banner: false
 page-layout: article
