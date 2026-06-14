@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jgscott.github.io/legal_essays.html</loc>
-    <lastmod>2026-06-14T16:52:14.993Z</lastmod>
+    <lastmod>2026-06-14T22:14:35.466Z</lastmod>
   </url>
   <url>
     <loc>https://jgscott.github.io/index.html</loc>
@@ -17,12 +17,20 @@
     <lastmod>2026-06-13T00:18:56.161Z</lastmod>
   </url>
   <url>
+    <loc>https://jgscott.github.io/essays/when-expert-words-have-two-meanings.html</loc>
+    <lastmod>2026-06-14T22:15:04.757Z</lastmod>
+  </url>
+  <url>
     <loc>https://jgscott.github.io/essays/anomaly-is-not-causation.html</loc>
     <lastmod>2026-06-14T17:22:52.408Z</lastmod>
   </url>
   <url>
     <loc>https://jgscott.github.io/teaching.html</loc>
     <lastmod>2026-06-13T00:19:06.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/essays/fraud-model-untested-accusation.html</loc>
+    <lastmod>2026-06-14T19:57:00.984Z</lastmod>
   </url>
   <url>
     <loc>https://jgscott.github.io/essays/predictive-ai-performance-disputes.html</loc>

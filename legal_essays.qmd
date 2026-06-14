@@ -11,6 +11,22 @@ These essays collect some thoughts from that experience. They discuss recurring 
 
 ::: {.essay-grid}
 
+
+::: {.essay-card}
+### [Beware of expert words with two meanings](essays/when-expert-words-have-two-meanings.qmd)
+Technical words like “bias,” “significance,” and “independent” can mislead when their statistical meanings are allowed to borrow weight from ordinary English. In litigation, the crucial question is often not whether the expert’s technical statement is true, but what legal or factual conclusions actually follow from it.
+
+:::
+
+
+
+::: {.essay-card}
+### [When a healthcare fraud model sees a green apple](essays/fraud-model-untested-accusation.qmd)
+
+Healthcare fraud models can identify providers whose billing patterns are unusual, but unusual billing is not the same as fraud. This essay explains why counsel should demand both statistical calibration and substantive validation before a billing outlier is treated as evidence of false claims.
+:::
+
+
 ::: {.essay-card}
 ### [When AI Performance Becomes a Legal Dispute](essays/predictive-ai-performance-disputes.qmd)
 

@@ -1,0 +1,61 @@
+---
+title: "When Expert Words Have Two Meanings"
+description: "Why familiar technical terms like bias, significance, and independence can mislead legal factfinders when their meaning is conflated with ordinary English."
+author: "James G. Scott"
+title-block-banner: false
+page-layout: article
+toc: true
+---
+
+## Familiar words can be dangerous
+
+Expert testimony often turns on words that sound familiar. That familiarity can be dangerous. A judge or jury may hear a word in its ordinary English sense, while the expert is using the same word in a narrower technical sense. If the difference is not made explicit, a correct technical statement can inadvertently become a misleading legal inference.
+
+Consider "bias." In ordinary speech, bias suggests prejudice, unfairness, or improper motive. In statistics, though, bias has a specific and narrower meaning. It describes a procedure that has a systematic tendency to overshoot or undershoot the quantity it is trying to estimate. Yet the potential semantic trap is obvious: a factfinder may hear that an analysis involves a "biased estimate" and infer that someone acted unfairly or with improper motive. But that does not follow. A statistical estimate can be biased without anyone being prejudiced. In many settings, a modestly biased estimator may even be preferred because it is more stable. I have used a biased estimator in many analyses, on the grounds that it was the right tool for the statistical job, and could vigorously defend that choice under cross examination.  
+
+Or consider "significance." To lay people, significance means importance. But in statistics, significance means something almost pedantically narrow: that a result is sufficiently inconsistent with a specified null model, at a specified threshold, under specified assumptions. Here too, the word invites the wrong inference. A result declared in court to be "statistically significant" may sound like a result that matters. But it may be too small to matter legally or economically to anyone other than a statistician performing their day job. On the flip side, a legally important effect may fail to be statistically significant in a small sample.
+
+## Independent actors and independent outcomes are different ideas
+
+But for my money, the most dangerous technical word in statistics is “independent.” The statistical meaning is not the same as the ordinary English meaning, but the two are close enough that one can easily be mistaken for the other, especially in litigation, where "independent" already carries legal and factual weight.
+
+In ordinary legal usage, two actors behave independently if they act separately. They do not coordinate or act under a common instruction. In an employment case, for example, a company might argue that challenged decisions on hiring, promotion, pay were made by independent managers exercising their own judgment.
+
+But in probability, independence means something specific and technical: two events are independent if learning that one occurred does not change our assessment of the probability the other will occur. For example, suppose we meet two siblings and learn that one is colorblind. That fact will change what we think about whether the other sibling is colorblind, because siblings share genetic risk factors. The two events are not independent in the probabilistic sense.
+
+By contrast, suppose a bird poops on my car in Austin.  Does learning this fact tell us anything useful about the probability that the Texas Longhorns will subsequently win the national championship? Of course not. Those events are ridiculous to mention in the same sentence, and that is exactly the point: they are independent because one gives us no information about the other.
+
+That definition is worth slowing down over. Probability is a language for updating expectations in light of information. To say that two events are independent is to say that one event gives us no probabilistic information about the other. To say that they are not independent is to say the opposite: learning about one event changes what we should expect about the other.
+
+That is an important concept. But it is not the same as saying _why_ the events are related.
+
+## A hiring example
+
+Consider a national employer with offices in several cities. The company hires for the same technical sales role in each office. A group of rejected applicants brings a discrimination claim, alleging that the company’s hiring process produced a common pattern of disadvantage across locations.
+
+The company responds that there was no company-wide hiring decision to challenge. Each office had its own hiring manager. The managers interviewed candidates locally, made their own recommendations, and did not discuss individual applicants with one another. No one at headquarters instructed them to prefer or disfavor any protected group. In the company’s telling, these were independent hiring decisions made by independent managers.
+
+Now suppose a statistical expert analyzes the hiring data and concludes that the outcomes were not independent. The expert means something quite specific: _rejection rates move together across offices._ Offices with lower hiring rates for one group tend to have lower hiring rates for that group elsewhere. Once we know what happened in one office, we can make a better probabilistic prediction about what happened in another.
+
+That is dependence in the probabilistic sense. It may be real fact, exactly the sort of pattern a good statistical expert should notice. It may also matter legally, because it bears on whether the challenged outcomes look like isolated local decisions or like results produced within a shared hiring system.
+
+But notice how the word "independent" now carries two meanings at once. The company is using the word to describe how the managers acted. The expert is using the word to describe how the outcomes behave statistically. Those are related ideas, but they are not the same.
+
+## A pattern is not an explanation
+
+Even if the expert has established that hiring outcomes are statistically related, that does not yet tell us why they are related. There are many ways for hiring decisions to become probabilistically dependent without the hiring managers coordinating in the ordinary legal sense.
+
+The mechanism is not hard to imagine. Separate managers can make separate decisions inside a shared system. If the offices draw from the same recruiting platform, use the same job posting, apply the same minimum qualifications, work within the same compensation bands, and rely on the same applicant-tracking system, their outcomes may resemble one another. Add a common screening tool, a common interview rubric, similar labor-market conditions, shared headcount pressures, and the same training about what experience matters for the role, and the probability point becomes intuitive. Learning something about one office’s outcomes may tell us something about another office’s outcomes because the offices are not operating in wholly separate worlds.
+
+That observation can matter a great deal. A pattern of related outcomes across locations may suggest that the case is not merely about isolated local judgments. It may justify discovery into common practices. It may show that the company’s account of each decision as purely local is incomplete. It may point counsel toward the institutional machinery behind the decisions. But the point is that statistical dependence is a pattern requiring explanation, not an explanation by itself. Shared features can make the outcomes dependent in the probability sense, even when the actors are independent in the ordinary sense.
+
+## The legal danger
+
+That is where the legal danger enters. If an expert says that the hiring decisions were “not independent,” a factfinder may hear something stronger than the expert has actually shown. The phrase may sound like coordination. It may sound like central direction. It may sound like a conclusion that the managers were not really acting on their own. To be sure, sometimes the evidence may support that broader conclusion. But the statistical statement does not carry that conclusion automatically.
+
+A careful lawyer should therefore press for translation. The expert says the decisions were not independent---independent in what sense? Does the expert mean that one hiring outcome gives probabilistic information about another? Does the expert mean that the managers coordinated? Those are different propositions, and they require different support.
+
+## The litigation lesson
+
+Technical words with ordinary meanings should not be allowed to glide past the courtroom without definition. The lawyer should ask the expert to define the word, distinguish the technical meaning from the everyday meaning, and state exactly what conclusion follows from the technical definition. Just as important, the expert should be asked what conclusions do not follow. That second set of questions is often where cases live or die.
+
