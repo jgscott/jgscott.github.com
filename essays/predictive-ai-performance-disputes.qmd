@@ -1,0 +1,107 @@
+---
+title: "When AI Performance Becomes a Legal Dispute"
+description: "How lawyers should think about validation and causation when a deployed AI or machine learning system produces disappointing business results."
+date: "2025-04-03"
+author: "James G. Scott"
+title-block-banner: false
+page-layout: article
+toc: true
+---
+
+## The business result is only the beginning
+
+Predictive AI systems are increasingly sold as business tools. They are used to recommend products, flag risky transactions, screen applicants, and automate many other decisions that used to depend on human judgment. These systems are often sold with assurances that sound, at least on the surface, like engineering specifications: the system will achieve a stated level of accuracy, reliability, or business performance, for a defined use case, under defined conditions.
+
+Those assurances give the parties something to argue about when these systems disappoint, as some inevitably will. The fraud tool missed fraud. The recommendation engine failed to increase sales. The hiring model produced bad candidates. Facts like these may be the reason the client calls a lawyer. But they rarely answer the most important technical questions by themselves. They do not tell us, by themselves, whether the problem was the model, the data, the deployment, the business environment, or the way performance was measured. 
+
+## An example: online clothing returns
+
+Consider a clothing retailer that hires a software vendor to deploy an online size-prediction tool. The tool is marketed as an AI-powered way to improve fit recommendations, increase customer confidence, and reduce costly returns. Behind that promise is a machine-learning model that recommends clothing sizes to customers based on information such as height, weight, body measurements, prior purchases, fit preference, and other available data.
+
+The commercial pitch is easy to understand. For apparel retailers, online returns are a major business problem. They affect margins, disrupt inventory planning, increase shipping and customer-service costs, and can threaten the economics of the sale itself. A tool that helps customers choose the right size therefore promises something concrete: fewer bad purchases, fewer returns, and less waste in the transaction.
+
+Now imagine that, after the tool is launched, the retailer sees a high return rate among customers who used it. From the retailer’s point of view, this seems like more than a disappointing software rollout. The vendor sold the system as a measurable solution to a measurable problem, and the retailer believed it was buying a tool that would reduce a major operating cost. If customers who used the tool are still returning clothing at high rates, the retailer may suspect that the promised capability was never really there.
+
+The vendor sees the situation differently. It responds that the model performed as trained, that returns are affected by many factors besides size, and that the retailer’s live website traffic differed from the data used to develop the model.
+
+This is a useful example because the surface issue is familiar, while the underlying statistical issues are subtle. What's more, the same structure appears in many disputes over commercial AI systems. A model is purchased to improve an outcome. The outcome is disappointing. One side treats the disappointment as proof that the model failed. The other side points to the complexity of the business environment as a reason the model cannot fairly be blamed.
+
+A serious analysis has to separate the business disappointment from the technical claim. Six questions are especially important:
+
+1. What was the model supposed to predict? 
+2. How was it validated?
+3. Were its probabilities reliable?
+4. Did it work for the relevant groups?
+5. Was there a live comparison?
+6. Did the deployment environment change?
+
+## What was the model supposed to predict?
+
+The first question in a predictive-model dispute is often the simplest to state and the easiest to overlook. What was the model actually supposed to predict?
+
+In the sizing example, the answer may seem obvious: the model was supposed to recommend the correct size. But "correct size" is not a self-defining statistical target. A model might be trained on any number of different outcomes:  
+
+- the size a customer is most likely to buy.
+- the size a customer is most likely to keep.
+- the probability of return for each possible size
+- whether a customer will exchange an item for a different size.
+- a latent concept such as "best fit" from noisy behavioral data.
+
+The choice of target matters greatly, and in a dispute over a predictive system, this is often the first statistical fault line. The parties may use similar words, such as “correct size” or “accurate recommendation,” while assuming different answers to the question of what, at the level of a model output, those words actually mean. The same issue appears across many AI disputes where the outcome used to train or evaluate the model is often only a proxy for the thing the buyer actually cared about.
+
+In any such dispute, the language of the contract, proposal, sales materials, and model documentation has to be translated into a precise statistical question. What outcome did the model learn to predict? What outcome was used to validate it? What outcome was promised to the buyer? A phrase like “accurate recommendations” may sound clear enough in ordinary business language, but it does not by itself specify a target variable, a performance metric, a relevant population, or an acceptable error rate.
+
+
+## What data were used to validate the model?
+
+Once the target is clear, the next question is how performance was tested. A model may be “validated” on data it did not train on, but that fact alone does not show that the test was meaningful for the dispute.
+
+In the sizing example, a random holdout from historical transactions might be a reasonable first check. But if the claim is that the tool would work on the retailer’s live website, the harder question is whether the validation data resembled that live environment. Did the test include future seasons, new products, different customer segments, and the parts of the assortment where returns were most costly?
+
+The right validation design depends on the representation being tested. A benchmark claim may turn on a benchmark test. A live-performance claim calls for live or near-live evidence. A broad claim about the retailer’s business should not be proven only on the easiest slice of that business.
+
+## Did the probabilities mean what they seemed to mean?
+
+Some predictive tools give a recommendation. Others also give a confidence score. If a sizing tool says that medium is the best fit with an 80 percent probability, the natural question is whether that number means what it appears to mean.
+
+That question is called calibration. A calibrated model’s probabilities line up with observed outcomes. If the model assigns an 80 percent probability to medium for a group of similar customers, medium should be right about 80 percent of the time in that group.
+
+Calibration matters because a model can rank choices well while overstating its confidence. Medium may be the best recommendation, but not by much. A website that says “we recommend medium” may influence customers differently from one that says “medium is most likely, but large is also plausible.”
+
+The same issue appears whenever an AI system reports a score or probability. A fraud score, a readmission probability, a hiring score, or a willingness-to-pay estimate may look precise. The question is whether that precision is earned.
+
+## Did the model work across the relevant groups?
+
+Aggregate performance can hide more specific types of failure. A sizing model, for example, might look strong overall while performing poorly for particular customer groups, product categories, brands, seasons, or fit preferences. The average may be dominated by common or easy cases.
+
+That matters if the promise was broader than the test. A claim that the tool was “90 percent accurate” may not say whether it worked for the products that drove returns, the customers most likely to use the tool, or the categories most important to the claimed loss.
+
+Subgroup performance can also affect the scope of the dispute. If poor outcomes are concentrated in a few categories or customer segments, that may identify the alleged defect more precisely. It may also limit the size of the problem. In disputes over deployed models, the relevant question is often not whether the model worked on average, but whether it worked for the specific cases where the promise and the alleged harm actually lie.
+
+## Was there a live comparison?
+
+Even a good validation study may not show whether the tool caused the business outcome the buyer cared about. For that, the cleanest evidence is often an actual experiment, in the form of live comparison: some customers are shown the tool, some other comparable customers are not, and outcomes are compared.
+
+The key word is comparable. Customers who choose to use a sizing tool may already be harder to fit. They may be less familiar with the brand, buying a difficult item to size, purchasing a gift, or choosing between adjacent sizes. A high return rate among those who used the tool may therefore reflect selection, not model failure.
+
+That is why a randomized test is usually more informative than a simple user-versus-non-user comparison. The better question is what happened when comparable customers were randomly offered the tool or not offered it.
+
+Even then, success has to be defined. Did the tool promise to reduce all returns, reduce size-related returns, improve conversion, increase retained revenue, or improve customer confidence? A tool might increase purchases by uncertain customers and still create more returns. It might reduce fit-related returns while leaving total returns unchanged. The metric has to match the promise.
+
+The broader point is simple: to substantiate the effect of a deployed AI system on business outcomes, a designed experiment is often required. Before-and-after comparisons and user-versus-non-user comparisons may be suggestive, but they do not, by themselves, isolate the effect of the sizing model.
+
+## Did the deployment environment change?
+
+A final question is whether the model was used in the same environment in which it was developed and validated. In machine learning, this problem is often called _distribution shift_. The basic idea is simple: a model learns from one setting and is later deployed in another.
+
+In the sizing example, the possible sources of shift are easy to imagine. After deploying the sizing tool, the retailer may launch a new season, change suppliers, attract a new customer base, or introduce new product category. Any of these changes, or dozens more, can affect model performance. A model trained on one mix of customers, products, and behaviors may perform worse when that mix changes. The model may still be doing what it was trained to do, but the statistical relationships it learned may no longer apply in the same way they did before.
+
+Distribution shift does not automatically excuse a disappointing result. Its significance depends on what the vendor promised, what conditions were reasonably contemplated, and whether the system was supposed to be monitored or updated after launch. If the vendor promised a static model trained on historical data, a later change in the retailer’s business may matter. If the vendor promised a deployed AI system suitable for live commercial use, then monitoring for drift may be part of what performance required.
+
+The broader point is that a model’s performance depends strongly on the data environment in which the algorithm is used.
+
+
+## The litigation takeaway
+
+In disputes over deployed AI systems, the business disappointment usually has to be translated into a technical claim. A high return rate, a missed fraud pattern, a failed recommendation engine, or a disappointing hiring tool may all justify scrutiny. But the evidence still has to identify what failed: the model’s target, the validation design, the performance metric, the deployment environment, the monitoring process, or some part of the data pipeline. A failure anywhere in that chain can look, from a distance, like a failed model. In all cases, the statistical task is to turn a complaint about results into a disciplined account of performance, causation, and proof.
+

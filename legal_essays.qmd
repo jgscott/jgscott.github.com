@@ -12,6 +12,14 @@ These essays collect some thoughts from that experience. They discuss recurring 
 ::: {.essay-grid}
 
 ::: {.essay-card}
+### [When AI Performance Becomes a Legal Dispute](essays/predictive-ai-performance-disputes.qmd)
+
+When an AI tool sold to improve a business outcome produces poor results, the dispute turns on statistical questions about what the system was promised to do and how that promise was tested. Lawyers need to connect the observed failure to a specific account of the model’s target, validation, reliability, deployment, and causal effect.
+:::
+
+
+
+::: {.essay-card}
 ### [Anomaly Is Not Causation](essays/anomaly-is-not-causation.qmd)
 
 A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.

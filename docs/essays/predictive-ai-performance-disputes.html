@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="James G. Scott">
+<meta name="dcterms.date" content="2025-04-03">
+<meta name="description" content="How lawyers should think about validation and causation when a deployed AI or machine learning system produces disappointing business results.">
 
-<title>Statistical Evidence in Litigation – James Scott</title>
+<title>When AI Performance Becomes a Legal Dispute – James Scott</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,21 +29,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">James Scott</span>
     </a>
   </div>
@@ -92,27 +95,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
+    <a class="nav-link" href="../books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./consulting.html"> 
+    <a class="nav-link" href="../consulting.html"> 
 <span class="menu-text">Consulting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assets/pdf/james-scott-cv.pdf"> 
+    <a class="nav-link" href="../assets/pdf/james-scott-cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -130,23 +133,56 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-business-result-is-only-the-beginning" id="toc-the-business-result-is-only-the-beginning" class="nav-link active" data-scroll-target="#the-business-result-is-only-the-beginning">The business result is only the beginning</a></li>
+  <li><a href="#an-example-online-clothing-returns" id="toc-an-example-online-clothing-returns" class="nav-link" data-scroll-target="#an-example-online-clothing-returns">An example: online clothing returns</a></li>
+  <li><a href="#what-was-the-model-supposed-to-predict" id="toc-what-was-the-model-supposed-to-predict" class="nav-link" data-scroll-target="#what-was-the-model-supposed-to-predict">What was the model supposed to predict?</a></li>
+  <li><a href="#what-data-were-used-to-validate-the-model" id="toc-what-data-were-used-to-validate-the-model" class="nav-link" data-scroll-target="#what-data-were-used-to-validate-the-model">What data were used to validate the model?</a></li>
+  <li><a href="#did-the-probabilities-mean-what-they-seemed-to-mean" id="toc-did-the-probabilities-mean-what-they-seemed-to-mean" class="nav-link" data-scroll-target="#did-the-probabilities-mean-what-they-seemed-to-mean">Did the probabilities mean what they seemed to mean?</a></li>
+  <li><a href="#did-the-model-work-across-the-relevant-groups" id="toc-did-the-model-work-across-the-relevant-groups" class="nav-link" data-scroll-target="#did-the-model-work-across-the-relevant-groups">Did the model work across the relevant groups?</a></li>
+  <li><a href="#was-there-a-live-comparison" id="toc-was-there-a-live-comparison" class="nav-link" data-scroll-target="#was-there-a-live-comparison">Was there a live comparison?</a></li>
+  <li><a href="#did-the-deployment-environment-change" id="toc-did-the-deployment-environment-change" class="nav-link" data-scroll-target="#did-the-deployment-environment-change">Did the deployment environment change?</a></li>
+  <li><a href="#the-litigation-takeaway" id="toc-the-litigation-takeaway" class="nav-link" data-scroll-target="#the-litigation-takeaway">The litigation takeaway</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistical Evidence in Litigation</h1>
+<h1 class="title">When AI Performance Becomes a Legal Dispute</h1>
+</div>
+
+<div>
+  <div class="description">
+    How lawyers should think about validation and causation when a deployed AI or machine learning system produces disappointing business results.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>James G. Scott </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 3, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -156,20 +192,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Much of my consulting work involves a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.</p>
-<p>These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what lawyers should ask before treating a numerical result as legally meaningful.</p>
-<div class="essay-grid">
-<section id="when-ai-performance-becomes-a-legal-dispute" class="level3 essay-card">
-<h3 data-anchor-id="when-ai-performance-becomes-a-legal-dispute"><a href="./essays/predictive-ai-performance-disputes.html">When AI Performance Becomes a Legal Dispute</a></h3>
-<p>When an AI tool sold to improve a business outcome produces poor results, the dispute turns on statistical questions about what the system was promised to do and how that promise was tested. Lawyers need to connect the observed failure to a specific account of the model’s target, validation, reliability, deployment, and causal effect.</p>
+<section id="the-business-result-is-only-the-beginning" class="level2">
+<h2 data-anchor-id="the-business-result-is-only-the-beginning">The business result is only the beginning</h2>
+<p>Predictive AI systems are increasingly sold as business tools. They are used to recommend products, flag risky transactions, screen applicants, and automate many other decisions that used to depend on human judgment. These systems are often sold with assurances that sound, at least on the surface, like engineering specifications: the system will achieve a stated level of accuracy, reliability, or business performance, for a defined use case, under defined conditions.</p>
+<p>Those assurances give the parties something to argue about when these systems disappoint, as some inevitably will. The fraud tool missed fraud. The recommendation engine failed to increase sales. The hiring model produced bad candidates. Facts like these may be the reason the client calls a lawyer. But they rarely answer the most important technical questions by themselves. They do not tell us, by themselves, whether the problem was the model, the data, the deployment, the business environment, or the way performance was measured.</p>
 </section>
-<section id="anomaly-is-not-causation" class="level3 essay-card">
-<h3 data-anchor-id="anomaly-is-not-causation"><a href="./essays/anomaly-is-not-causation.html">Anomaly Is Not Causation</a></h3>
-<p>A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.</p>
+<section id="an-example-online-clothing-returns" class="level2">
+<h2 data-anchor-id="an-example-online-clothing-returns">An example: online clothing returns</h2>
+<p>Consider a clothing retailer that hires a software vendor to deploy an online size-prediction tool. The tool is marketed as an AI-powered way to improve fit recommendations, increase customer confidence, and reduce costly returns. Behind that promise is a machine-learning model that recommends clothing sizes to customers based on information such as height, weight, body measurements, prior purchases, fit preference, and other available data.</p>
+<p>The commercial pitch is easy to understand. For apparel retailers, online returns are a major business problem. They affect margins, disrupt inventory planning, increase shipping and customer-service costs, and can threaten the economics of the sale itself. A tool that helps customers choose the right size therefore promises something concrete: fewer bad purchases, fewer returns, and less waste in the transaction.</p>
+<p>Now imagine that, after the tool is launched, the retailer sees a high return rate among customers who used it. From the retailer’s point of view, this seems like more than a disappointing software rollout. The vendor sold the system as a measurable solution to a measurable problem, and the retailer believed it was buying a tool that would reduce a major operating cost. If customers who used the tool are still returning clothing at high rates, the retailer may suspect that the promised capability was never really there.</p>
+<p>The vendor sees the situation differently. It responds that the model performed as trained, that returns are affected by many factors besides size, and that the retailer’s live website traffic differed from the data used to develop the model.</p>
+<p>This is a useful example because the surface issue is familiar, while the underlying statistical issues are subtle. What’s more, the same structure appears in many disputes over commercial AI systems. A model is purchased to improve an outcome. The outcome is disappointing. One side treats the disappointment as proof that the model failed. The other side points to the complexity of the business environment as a reason the model cannot fairly be blamed.</p>
+<p>A serious analysis has to separate the business disappointment from the technical claim. Six questions are especially important:</p>
+<ol type="1">
+<li>What was the model supposed to predict?</li>
+<li>How was it validated?</li>
+<li>Were its probabilities reliable?</li>
+<li>Did it work for the relevant groups?</li>
+<li>Was there a live comparison?</li>
+<li>Did the deployment environment change?</li>
+</ol>
 </section>
-</div>
+<section id="what-was-the-model-supposed-to-predict" class="level2">
+<h2 data-anchor-id="what-was-the-model-supposed-to-predict">What was the model supposed to predict?</h2>
+<p>The first question in a predictive-model dispute is often the simplest to state and the easiest to overlook. What was the model actually supposed to predict?</p>
+<p>In the sizing example, the answer may seem obvious: the model was supposed to recommend the correct size. But “correct size” is not a self-defining statistical target. A model might be trained on any number of different outcomes:</p>
+<ul>
+<li>the size a customer is most likely to buy.</li>
+<li>the size a customer is most likely to keep.</li>
+<li>the probability of return for each possible size</li>
+<li>whether a customer will exchange an item for a different size.</li>
+<li>a latent concept such as “best fit” from noisy behavioral data.</li>
+</ul>
+<p>The choice of target matters greatly, and in a dispute over a predictive system, this is often the first statistical fault line. The parties may use similar words, such as “correct size” or “accurate recommendation,” while assuming different answers to the question of what, at the level of a model output, those words actually mean. The same issue appears across many AI disputes where the outcome used to train or evaluate the model is often only a proxy for the thing the buyer actually cared about.</p>
+<p>In any such dispute, the language of the contract, proposal, sales materials, and model documentation has to be translated into a precise statistical question. What outcome did the model learn to predict? What outcome was used to validate it? What outcome was promised to the buyer? A phrase like “accurate recommendations” may sound clear enough in ordinary business language, but it does not by itself specify a target variable, a performance metric, a relevant population, or an acceptable error rate.</p>
+</section>
+<section id="what-data-were-used-to-validate-the-model" class="level2">
+<h2 data-anchor-id="what-data-were-used-to-validate-the-model">What data were used to validate the model?</h2>
+<p>Once the target is clear, the next question is how performance was tested. A model may be “validated” on data it did not train on, but that fact alone does not show that the test was meaningful for the dispute.</p>
+<p>In the sizing example, a random holdout from historical transactions might be a reasonable first check. But if the claim is that the tool would work on the retailer’s live website, the harder question is whether the validation data resembled that live environment. Did the test include future seasons, new products, different customer segments, and the parts of the assortment where returns were most costly?</p>
+<p>The right validation design depends on the representation being tested. A benchmark claim may turn on a benchmark test. A live-performance claim calls for live or near-live evidence. A broad claim about the retailer’s business should not be proven only on the easiest slice of that business.</p>
+</section>
+<section id="did-the-probabilities-mean-what-they-seemed-to-mean" class="level2">
+<h2 data-anchor-id="did-the-probabilities-mean-what-they-seemed-to-mean">Did the probabilities mean what they seemed to mean?</h2>
+<p>Some predictive tools give a recommendation. Others also give a confidence score. If a sizing tool says that medium is the best fit with an 80 percent probability, the natural question is whether that number means what it appears to mean.</p>
+<p>That question is called calibration. A calibrated model’s probabilities line up with observed outcomes. If the model assigns an 80 percent probability to medium for a group of similar customers, medium should be right about 80 percent of the time in that group.</p>
+<p>Calibration matters because a model can rank choices well while overstating its confidence. Medium may be the best recommendation, but not by much. A website that says “we recommend medium” may influence customers differently from one that says “medium is most likely, but large is also plausible.”</p>
+<p>The same issue appears whenever an AI system reports a score or probability. A fraud score, a readmission probability, a hiring score, or a willingness-to-pay estimate may look precise. The question is whether that precision is earned.</p>
+</section>
+<section id="did-the-model-work-across-the-relevant-groups" class="level2">
+<h2 data-anchor-id="did-the-model-work-across-the-relevant-groups">Did the model work across the relevant groups?</h2>
+<p>Aggregate performance can hide more specific types of failure. A sizing model, for example, might look strong overall while performing poorly for particular customer groups, product categories, brands, seasons, or fit preferences. The average may be dominated by common or easy cases.</p>
+<p>That matters if the promise was broader than the test. A claim that the tool was “90 percent accurate” may not say whether it worked for the products that drove returns, the customers most likely to use the tool, or the categories most important to the claimed loss.</p>
+<p>Subgroup performance can also affect the scope of the dispute. If poor outcomes are concentrated in a few categories or customer segments, that may identify the alleged defect more precisely. It may also limit the size of the problem. In disputes over deployed models, the relevant question is often not whether the model worked on average, but whether it worked for the specific cases where the promise and the alleged harm actually lie.</p>
+</section>
+<section id="was-there-a-live-comparison" class="level2">
+<h2 data-anchor-id="was-there-a-live-comparison">Was there a live comparison?</h2>
+<p>Even a good validation study may not show whether the tool caused the business outcome the buyer cared about. For that, the cleanest evidence is often an actual experiment, in the form of live comparison: some customers are shown the tool, some other comparable customers are not, and outcomes are compared.</p>
+<p>The key word is comparable. Customers who choose to use a sizing tool may already be harder to fit. They may be less familiar with the brand, buying a difficult item to size, purchasing a gift, or choosing between adjacent sizes. A high return rate among those who used the tool may therefore reflect selection, not model failure.</p>
+<p>That is why a randomized test is usually more informative than a simple user-versus-non-user comparison. The better question is what happened when comparable customers were randomly offered the tool or not offered it.</p>
+<p>Even then, success has to be defined. Did the tool promise to reduce all returns, reduce size-related returns, improve conversion, increase retained revenue, or improve customer confidence? A tool might increase purchases by uncertain customers and still create more returns. It might reduce fit-related returns while leaving total returns unchanged. The metric has to match the promise.</p>
+<p>The broader point is simple: to substantiate the effect of a deployed AI system on business outcomes, a designed experiment is often required. Before-and-after comparisons and user-versus-non-user comparisons may be suggestive, but they do not, by themselves, isolate the effect of the sizing model.</p>
+</section>
+<section id="did-the-deployment-environment-change" class="level2">
+<h2 data-anchor-id="did-the-deployment-environment-change">Did the deployment environment change?</h2>
+<p>A final question is whether the model was used in the same environment in which it was developed and validated. In machine learning, this problem is often called <em>distribution shift</em>. The basic idea is simple: a model learns from one setting and is later deployed in another.</p>
+<p>In the sizing example, the possible sources of shift are easy to imagine. After deploying the sizing tool, the retailer may launch a new season, change suppliers, attract a new customer base, or introduce new product category. Any of these changes, or dozens more, can affect model performance. A model trained on one mix of customers, products, and behaviors may perform worse when that mix changes. The model may still be doing what it was trained to do, but the statistical relationships it learned may no longer apply in the same way they did before.</p>
+<p>Distribution shift does not automatically excuse a disappointing result. Its significance depends on what the vendor promised, what conditions were reasonably contemplated, and whether the system was supposed to be monitored or updated after launch. If the vendor promised a static model trained on historical data, a later change in the retailer’s business may matter. If the vendor promised a deployed AI system suitable for live commercial use, then monitoring for drift may be part of what performance required.</p>
+<p>The broader point is that a model’s performance depends strongly on the data environment in which the algorithm is used.</p>
+</section>
+<section id="the-litigation-takeaway" class="level2">
+<h2 data-anchor-id="the-litigation-takeaway">The litigation takeaway</h2>
+<p>In disputes over deployed AI systems, the business disappointment usually has to be translated into a technical claim. A high return rate, a missed fraud pattern, a failed recommendation engine, or a disappointing hiring tool may all justify scrutiny. But the evidence still has to identify what failed: the model’s target, the validation design, the performance metric, the deployment environment, the monitoring process, or some part of the data pipeline. A failure anywhere in that chain can look, from a distance, like a failed model. In all cases, the statistical task is to turn a complaint about results into a disciplined account of performance, causation, and proof.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,5 +702,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
