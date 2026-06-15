@@ -5,9 +5,11 @@ page-layout: full
 toc: false
 ---
 
-In the outside consulting work I do, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
+In my consulting and expert-witness work, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
 
 These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what I would encourage laywers and fact-finders to ask before treating a numerical result as legally meaningful.
+
+For inquiries, see my [Consulting](consulting.qmd)￼ page.
 
 ::: {.essay-grid}
 
