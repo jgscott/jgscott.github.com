@@ -68,5 +68,5 @@ A careful lawyer should therefore press for translation. The expert says the dec
 
 ## The litigation lesson
 
-Technical words with ordinary meanings should not be allowed to glide past the courtroom without definition. The lawyer should ask the expert to define the word, distinguish the technical meaning from the everyday meaning, and state exactly what conclusion follows from the technical definition. Just as important, the expert should be asked what conclusions do not follow. That second set of questions is often where cases live or die.
+Technical words with ordinary meanings should not be allowed to glide past the courtroom without definition. The lawyer should ask the expert to define the word, distinguish the technical meaning from the everyday meaning, and state exactly what conclusion is implied from the technical definition. Just as important, the expert should be asked what conclusions are _not_ implied. Good answers may follow!  
 
