@@ -49,6 +49,11 @@ When an expert says a pattern of behavior is statistically unlikely, that assess
 Finished products may look alike for reasons that matter legally, or for reasons that do not. In manufacturing disputes, the strongest evidence often comes from designing an experiment that shows whether resemblance points to the disputed process or to ordinary lawful alternatives.
 :::
 
+::: {.essay-card}
+### [The Denominator Problem in Statistical Evidence](essays/denominator_problem_statistical_evidence.qmd)
+Counts of bad events can look powerful in litigation, but a count is only half of a rate. Lawyers evaluating statistical evidence should ask what population, exposure, or opportunity produced the count before treating it as proof of risk, systemic conduct, medical necessity, damages, or classwide harm.
+:::
+
   
 :::
   

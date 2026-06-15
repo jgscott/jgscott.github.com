@@ -1,0 +1,57 @@
+---
+title: "The Denominator Problem in Statistical Evidence"
+description: "Why counts of bad events can mislead in litigation unless lawyers ask what population, exposure, or opportunity produced the count."
+author: "James G. Scott"
+title-block-banner: false
+page-layout: article
+toc: true
+---
+
+## Why Counts Can Mislead in Litigation
+
+In many cases, the first number to appear is a count. A regulator identifies 1,200 denied insurance claims. A plaintiff points to 87 customer complaints about a product. A government audit lists 4,600 allegedly improper bills. Counts like this have force because they look concrete, like a definitive tally of misconduct or misery.
+
+But the _count_ is only the legally sexy half of a _rate._ The missing half is the denominator: the population of opportunities, transactions, claims, products, patients, employees, or applications from which the count arose. Without that denominator, it may be impossible to determine whether the count is alarming or thoroughly ordinary.
+
+This is a recurring problem in litigation. Parties argue about the number of bad events without first establishing the number of chances for those events to occur.
+
+## The Denominator Behind the Count
+
+It is tempting to treat the denominator as bookkeeping. Count the bad events, count the total events. Divide one into the other and call it a day.
+
+But product-liability cases show why the missing denominator can be harder to define than it first appears.  Suppose a plaintiff identifies fifty battery fires involving a consumer device. The number sounds catastrophic, and in human terms it may be. But the statistical inference depends on the product population and the relevant exposure. Fifty fires among five thousand units suggests a very different risk profile from fifty fires among fifty million units. The same count may also carry different meaning depending on whether the devices were used once a week or every day, charged overnight or intermittently, paired with an approved charger or a third-party accessory, and drawn from the full production run or a particular manufacturing period.
+
+That is why “units sold” is not always the right denominator. The relevant denominator may be charging sessions, device-years of use, units exposed to a particular condition, or units manufactured with a particular component. A denominator should correspond to the opportunity for the alleged failure to occur. Otherwise the analysis may compare fifty events to a population that was never meaningfully at risk.
+
+## When the Denominator Carries the Legal Theory
+
+Even thornier are cases where the choice of denominator carries the whole legal theory. Consider a wage-and-hour case in which workers allege that they were required to pass through a security checkpoint before clocking in. The numerator might be days on which employees spent uncompensated time waiting in the checkpoint line. But what's the right denominator?
+
+One possibility is all scheduled shifts across the employer’s operation. That rate speaks to a broad theory of the case: whether uncompensated checkpoint time was a pervasive feature of the employer’s business, not merely an occasional problem at particular sites or on particular days. A low rate on this denominator may support the argument that the alleged practice was sporadic or operationally marginal. A high rate may support the argument that the challenged practice was built into the way the business ran.
+
+A different denominator is shifts in which employees were actually required to pass through a staffed checkpoint before clocking in. That rate answers a more targeted question: among workers exposed to the challenged practice, how often did the alleged unpaid time occur? This denominator may be more relevant to liability, damages, or class treatment if the legal theory focuses on employees who were subject to the checkpoint procedure itself.
+
+Neither denominator is merely “the total” in some unambiguous sense that everyone can agree upon.  Each option defines the population over which the alleged wrong is being measured. A broad denominator can make a localized violation look small. A narrow denominator can make a limited practice look pervasive. The right denominator depends on the claim, the defense, and the inference the rate is being asked to support.
+
+Healthcare cases often create the same problem. Suppose an audit finds that a provider ordered a suspicious number of high-reimbursement cardiac-imaging tests. The numerator is the number of tests. The denominator determines what claim the rate is being used to support.
+
+One possible denominator is all patient encounters during the audit period. That rate speaks to a broad outlier theory: whether this provider used the test unusually often across the practice as a whole. It may be useful as a screening measure, especially if the question is whether the provider’s billing pattern differs sharply from peer providers. But it may say little about medical necessity if the provider treats a patient population with unusually serious cardiac risk.
+
+A different denominator might be the set of encounters in which the test was clinically plausible. This might include patients with relevant symptoms, diagnoses, risk factors, abnormal preliminary findings, or other indications that could justify considering the test. With that choice of denominator, the rate answers a narrower and more legally consequential question: among patients for whom the test was at least potentially indicated, how often did the provider order it? This is more relevant if the allegation is that the provider ordered tests that were unnecessary, excessive, or unsupported by the patient record.
+
+In either case, the expert’s job is to make the denominator defensible, while the lawyer’s job is to make sure it has not been smuggled into the analysis as an ostensibly neutral technical choice.
+
+## Apples in the numerator, oranges in the denominator
+
+Even a correctly computed rate can mislead if the numerator and denominator are not aligned. The numerator counts events with one definition; the denominator must count opportunities under the same definition.
+
+Suppose a consumer class action challenges a subscription service’s cancellation process. The plaintiffs count complaints from customers who could not cancel online. The company divides by all subscribers. That denominator may be too large if many subscribers never attempted cancellation. The legally relevant question may concern the rate of failed cancellation _among customers who tried to cancel,_ not among everyone who ever subscribed.
+
+Now reverse the problem. Plaintiffs divide the complaints by the number of customers who contacted customer service about cancellation. That denominator may be too small if many customers successfully canceled online and never contacted support. The rate may then describe the experience of customers already having trouble, not the experience of canceling customers generally.
+
+## The litigation lesson
+
+A count may be enough to justify investigation or support discovery. But when the count is used to quantify risk, prove systemic conduct, or estimate damages, the denominator becomes part of the proof.
+
+The basic question about any count is: out of what? That question leads quickly to others. What exactly was counted in the numerator? What opportunities were included in the denominator? Are the numerator and denominator measuring events and opportunities according to the same definition? Would a different denominator change the legal meaning of the rate? These are far from technical afterthoughts. They determine whether the count supports the inference being drawn from it. A pile of adverse examples can be powerful evidence, but only after the court knows the population from which the pile was drawn.
+
