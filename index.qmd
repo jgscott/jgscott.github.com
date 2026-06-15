@@ -34,7 +34,7 @@ My work spans statistics, machine learning, AI, computation, and applied data sc
 
 My research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.
 
-[Research →](research.html){.card-link}
+[Research](research.html){.card-link}
 :::
 
 ::: {.card}
@@ -42,7 +42,7 @@ My research focuses on Bayesian inference, statistical machine learning, statist
 
 I am coauthor of *AIQ: How People and Machines Are Smarter Together* and author of *Data Science in R: A Gentle Introduction*, a free textbook used in introductory data-science courses at UT and elsewhere.
 
-[Books →](books.html){.card-link}
+[Books](books.html){.card-link}
 :::
 
 ::: {.card}
@@ -50,15 +50,15 @@ I am coauthor of *AIQ: How People and Machines Are Smarter Together* and author 
 
 I teach statistical modeling, data science, probability, inference, and machine learning to students in statistics, data science, business, economics, and related fields.
 
-[Teaching →](teaching.html){.card-link}
+[Teaching](teaching.html){.card-link}
 :::
 
 ::: {.card}
-## Consulting and expert work
+## Statistics and the Law
 
-I consult on statistical, data-scientific, and machine-learning questions in litigation and other high-stakes settings, with particular attention to uncertainty, causal claims, sampling, model validity, and empirical evidence.
+In the outside consulting work I do, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do. These essays collect some thoughts from that experience.
 
-[Consulting →](consulting.html){.card-link}
+[Statistics and the Law](legal_essays.html){.card-link}
 :::
 :::
 

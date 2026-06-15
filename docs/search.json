@@ -18,28 +18,28 @@
     "href": "index.html#research",
     "title": "James G. Scott",
     "section": "Research",
-    "text": "Research\nMy research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.\nResearch →"
+    "text": "Research\nMy research focuses on Bayesian inference, statistical machine learning, statistical computing, and interdisciplinary applications. I have worked on shrinkage priors, sparse inference, multiple testing, Bayesian computation, and the statistical reliability of machine-learning methods.\nResearch"
   },
   {
     "objectID": "index.html#books",
     "href": "index.html#books",
     "title": "James G. Scott",
     "section": "Books",
-    "text": "Books\nI am coauthor of AIQ: How People and Machines Are Smarter Together and author of Data Science in R: A Gentle Introduction, a free textbook used in introductory data-science courses at UT and elsewhere.\nBooks →"
+    "text": "Books\nI am coauthor of AIQ: How People and Machines Are Smarter Together and author of Data Science in R: A Gentle Introduction, a free textbook used in introductory data-science courses at UT and elsewhere.\nBooks"
   },
   {
     "objectID": "index.html#teaching",
     "href": "index.html#teaching",
     "title": "James G. Scott",
     "section": "Teaching",
-    "text": "Teaching\nI teach statistical modeling, data science, probability, inference, and machine learning to students in statistics, data science, business, economics, and related fields.\nTeaching →"
+    "text": "Teaching\nI teach statistical modeling, data science, probability, inference, and machine learning to students in statistics, data science, business, economics, and related fields.\nTeaching"
   },
   {
-    "objectID": "index.html#consulting-and-expert-work",
-    "href": "index.html#consulting-and-expert-work",
+    "objectID": "index.html#statistics-and-the-law",
+    "href": "index.html#statistics-and-the-law",
     "title": "James G. Scott",
-    "section": "Consulting and expert work",
-    "text": "Consulting and expert work\nI consult on statistical, data-scientific, and machine-learning questions in litigation and other high-stakes settings, with particular attention to uncertainty, causal claims, sampling, model validity, and empirical evidence.\nConsulting →"
+    "section": "Statistics and the Law",
+    "text": "Statistics and the Law\nIn the outside consulting work I do, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do. These essays collect some thoughts from that experience.\nStatistics and the Law"
   },
   {
     "objectID": "index.html#contact",
