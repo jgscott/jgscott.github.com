@@ -7,9 +7,11 @@ toc: false
 
 In my consulting and expert-witness work, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
 
-These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what I would encourage laywers and fact-finders to ask before treating a numerical result as legally meaningful.
+These essays collect some thoughts from that experience. They discuss recurring issues that arise when statistical models are used to test for disparities, identify anomalies, estimate damanges, or compare competing explanations. My focus here is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what I would encourage lawyers and fact-finders to ask before treating a numerical result as legally meaningful.
 
-For inquiries, see my [Consulting](consulting.qmd)￼ page.
+For readers looking for a broader introduction to statistical and data-scientific reasoning, I also maintain a free textbook, [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).)
+
+For consulting and expert-witness inquiries, see my [Consulting](consulting.qmd) page.
 
 ::: {.essay-grid}
 
@@ -39,8 +41,7 @@ When an AI tool sold to improve a business outcome produces poor results, the di
 
 ::: {.essay-card}
 ### [Anomaly Is Not Causation](essays/anomaly-is-not-causation.qmd)
-
-A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.
+When an expert says a pattern of behavior is statistically unlikely, that assessment depends on a mathematical model of "ordinary conduct" that the expert has constructed. Lawyers should examine that model carefully before allowing the mere fact of a statistical anomaly to do the work of legal inference.
 :::
 
 ::: {.essay-card}
