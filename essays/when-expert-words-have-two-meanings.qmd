@@ -17,11 +17,22 @@ Or consider "significance." To lay people, significance means importance. But in
 
 ## Independent actors and independent outcomes are different ideas
 
-But for my money, the most dangerous technical word in statistics is “independent.” The statistical meaning is not the same as the ordinary English meaning, but the two are close enough that one can easily be mistaken for the other, especially in litigation, where "independent" already carries legal and factual weight.
+But for my money, the most dangerous technical word in statistics is “independent.” The statistical meaning is not the same as the ordinary English meaning, but the two are close enough that one can easily be mistaken for the other, especially in litigation, where “independent” can already carry legal and factual weight.
 
-In ordinary legal usage, two actors behave independently if they act separately. They do not coordinate or act under a common instruction. In an employment case, for example, a company might argue that challenged decisions on hiring, promotion, pay were made by independent managers exercising their own judgment.
+Just think of all the ways a lawyer might use the word:
 
-But in probability, independence means something specific and technical: two events are independent if learning that one occurred does not change our assessment of the probability the other will occur. For example, suppose we meet two siblings and learn that one is colorblind. That fact will change what we think about whether the other sibling is colorblind, because siblings share genetic risk factors. The two events are not independent in the probabilistic sense.
+- an independent contractor, as opposed to an employee;
+- an independent director, as opposed to someone beholden to management;
+- an independent investigation, as opposed to an internal whitewash;
+- an independent medical examiner, as opposed to a treating physician;
+- an independent expert, as opposed to a hired advocate;
+- an independent decision maker, as opposed to someone following orders.
+
+In each setting, the word carries a sense of separateness, neutrality, or freedom from control. That is already a lot for one word to carry. When a statistical expert then uses the same word in a technical sense, the risk of confusion is obvious.
+
+Let's focus, for the sake of example, on one common legal usage: independent actors. In ordinary legal usage, two actors behave independently if they act separately. They do not coordinate, collaborate, or act under a common instruction. In an employment case, for example, a company might argue that challenged hiring, promotion, or pay decisions were made by independent managers exercising their own judgment.
+
+In probability, on the other hand, independence means something specific and technical: two events are independent if learning that one occurred does not change our assessment of the probability the other will occur. For example, suppose we meet two siblings and learn that one is colorblind. That fact will change what we think about whether the other sibling is colorblind, because siblings share genetic risk factors. The two events are not independent in the probabilistic sense.
 
 By contrast, suppose a bird poops on my car in Austin.  Does learning this fact tell us anything useful about the probability that the Texas Longhorns will subsequently win the national championship? Of course not. Those events are ridiculous to mention in the same sentence, and that is exactly the point: they are independent because one gives us no information about the other.
 
