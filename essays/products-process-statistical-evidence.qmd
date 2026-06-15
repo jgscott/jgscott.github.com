@@ -1,0 +1,50 @@
+---
+title: "What Can a Finished Product Prove About How It Was Made?"
+description: "Why finished-product resemblance may require early statistical design to show what it proves about how a product was made."
+author: "James G. Scott"
+title-block-banner: false
+page-layout: article
+toc: true
+---
+
+
+## The visible product versus the hidden process
+
+The case begins with a simple, indignant thought: the defendant’s product looks like it does because it was made by a process the defendant had no right to use.
+
+That thought can become the central theory of a trade-secret case, a contract-manufacturing dispute, or a fight over whether a supplier followed an approved production protocol. The trouble is that, while the theory points inward, toward what happened on the production line, the evidence often points less directly. Records may be incomplete. Witnesses may disagree. Technical documents may describe an approved process without showing how that process was used in practice. Through it all, the defendant maintains that its products came from a lawful process.
+
+So the plaintiff looks for proof in the place where the process has left something tangible behind: the finished product.
+
+Consider, for example, a dispute over pharmaceutical tablets. The plaintiff alleges that the defendant used a protected formulation or manufacturing protocol; the defendant denies it. The tablets, however, can be bought, sampled, tested, and compared. If they resemble the plaintiff’s tablets in dissolution behavior, impurity profile, coating characteristics, active ingredient concentration, hardness, or stability, the plaintiff will likely want to treat that resemblance as more than coincidence.
+
+That is where statistics enters the case. It supplies the framework for reasoning backward from product measurements to process conclusions. The expert must explain why these specific tablets, selected and measured in this way, support an inference about the manufacturing process that produced them.
+
+## Why resemblance is not enough
+
+Finished products can be compared directly: their dissolution curves can be plotted; their coating, hardness, and stability tested; and so on. In a process dispute, those comparisons are often the first place the plaintiff wants to go. But resemblance between finished products is only the beginning of the argument. The legal dispute is about how the defendant's product was made, and the same finished-product profile may sometimes be reached by more than one path.
+
+The expert's fundamental task, then, is to probe the process-to-product relationship: how product features respond when the process changes. That is the missing link between resemblance and legal inference. If many lawful choices about formulation, compression, drying, coating, or storage can produce tablets with the same dissolution curve, hardness, impurity profile, and stability results, then the similarity may have limited force. If that profile appears only when the process is run in a way that resembles the protected method, the same similarity becomes much more probative.
+
+In a pharmaceutical case, the relevant process inputs may include formulation, excipients, mixing time, granulation, drying conditions, compression force, coating, storage, and ordinary operating conditions. When those inputs change, the finished tablets will likely change in systematic ways. How? Which product features move when particular process inputs change? Which features remain stable? Which combinations of inputs produce the profile seen in the plaintiff’s product? Which combinations produce the profile seen in the defendant’s product? The answers determine whether product resemblance points back toward the disputed process or leaves open ordinary lawful explanations.
+
+This is where the case becomes an experimental-design problem. The plaintiff cannot simply ask the laboratory to “test the product” and hope the right inference emerges. Someone has to decide which inputs to vary, which inputs to hold fixed, which combinations to test, how many runs to perform, and which product features to measure. Those choices determine whether the experiment will answer the legal question.
+
+But the difficulty is that process inputs often work together. A drying condition may matter under one formulation and matter less under another. Compression force may affect dissolution differently depending on the binder or coating. The final product's characteristics may arise from a combination of choices that no single factor explains by itself. An experiment that changes only one factor at a time may miss the interaction that actually matters.
+
+The practical advice is simple: involve the statistician before the production runs are made. At that stage, a statistician can help translate the legal theory into an experimental plan: which process paths should be explored, which lawful alternatives should be tested, and how much evidence will be needed to distinguish one explanation from another. After the experiment has been run, many of those choices are locked in. The wrong factors may have been varied, the important combinations skipped, the number of runs left too small to separate signal from ordinary variation. These are expensive mistakes, and they bring to mind an old aphorism of Ronald Fisher: when the statistician is brought in too late, the job may be reduced to conducting a post-mortem and explaining what the experiment died of.
+
+## What the experiment might show
+
+A designed experiment gives the court a way to understand the product comparison.
+
+One possible result strengthens the plaintiff’s case. The experiment may show that the defendant’s product profile appears most reliably under a highly specific set of choices---when the formulation, processing conditions, and other inputs are set in a way that closely resembles the protected method---and that any other choices tend to produce obviously different results. In that situation, the resemblance between the finished products has legal force, because the experiment has made lawful explanations harder to accept. The defendant's product looks more like the kind of output that only the protected process could be expected to produce.
+
+Another possible result strengthens the defendant’s case. The experiment may show that similar tablets can be produced through several ordinary process paths: a different formulation, a different compression setting, a different drying condition, a different coating choice, or some combination of lawful choices. In that situation, the resemblance remains real, but it no longer points strongly toward unauthorized use. The defendant can say: similar outputs do not identify a single process.
+
+That is the value of the experiment. It translates product resemblance into an inference about process. The court can then ask the question that matters legally: does the observed product profile make unauthorized use more likely, or does it leave open plausible lawful ways to reach the same result?
+
+## The litigation lesson
+
+Finished products can reveal something about hidden manufacturing processes. But in a case like this, the strongest product evidence begins with the design of the experiment that teaches the court what the product resemblance means. This is one of the clearest litigation settings where statistical help belongs at the beginning. The product comparison may happen at the end, but the evidentiary claims are often won or lost at the design stage. 
+

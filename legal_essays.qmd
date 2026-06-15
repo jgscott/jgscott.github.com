@@ -40,6 +40,12 @@ When an AI tool sold to improve a business outcome produces poor results, the di
 
 A statistical anomaly may justify scrutiny, but rarity alone does not identify the cause of the rare event. This essay explains why an unusual pattern may be consistent with misconduct while also being consistent with benign alternatives.
 :::
+
+::: {.essay-card}
+### [What Can a Finished Product Prove About How It Was Made?](essays/product-process-statistical-evidence.qmd)
+Finished products may look alike for reasons that matter legally, or for reasons that do not. In manufacturing disputes, the strongest evidence often comes from designing an experiment that shows whether resemblance points to the disputed process or to ordinary lawful alternatives.
+:::
+
   
 :::
   

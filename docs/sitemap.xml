@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jgscott.github.io/legal_essays.html</loc>
-    <lastmod>2026-06-14T22:14:35.466Z</lastmod>
+    <lastmod>2026-06-15T15:40:51.465Z</lastmod>
   </url>
   <url>
     <loc>https://jgscott.github.io/index.html</loc>
@@ -43,5 +43,9 @@
   <url>
     <loc>https://jgscott.github.io/software.html</loc>
     <lastmod>2026-06-13T00:19:00.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jgscott.github.io/essays/products-process-statistical-evidence.html</loc>
+    <lastmod>2026-06-15T15:44:36.292Z</lastmod>
   </url>
 </urlset>
