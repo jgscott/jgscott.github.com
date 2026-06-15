@@ -1,6 +1,6 @@
 ---
-title: "When Expert Words Have Two Meanings"
-description: "Why familiar technical terms like bias, significance, and independence can mislead legal factfinders when their meaning is conflated with ordinary English."
+title: "Beware of Expert Words with Two Meanings"
+description: "Why technical terms in statistics like bias, significance, and independence can mislead legal factfinders when their meaning is conflated with ordinary English."
 author: "James G. Scott"
 title-block-banner: false
 page-layout: article
@@ -9,9 +9,9 @@ toc: true
 
 ## Familiar words can be dangerous
 
-Expert testimony often turns on words that sound familiar. That familiarity can be dangerous. A judge or jury may hear a word in its ordinary English sense, while the expert is using the same word in a narrower technical sense. If the difference is not made explicit, a correct technical statement can inadvertently become a misleading legal inference.
+Expert testimony often turns on technical words that sound familiar. That familiarity can be dangerous. A judge or jury may hear a word in its ordinary English sense, while the expert is using the same word in a narrower technical sense. If the difference is not made explicit, a correct technical statement can inadvertently become a misleading legal inference.
 
-Consider "bias." In ordinary speech, bias suggests prejudice, unfairness, or improper motive. In statistics, though, bias has a specific and narrower meaning. It describes a procedure that has a systematic tendency to overshoot or undershoot the quantity it is trying to estimate. Yet the potential semantic trap is obvious: a factfinder may hear that an analysis involves a "biased estimate" and infer that someone acted unfairly or with improper motive. But that does not follow. A statistical estimate can be biased without anyone being prejudiced. In many settings, a modestly biased estimator may even be preferred because it is more stable. I have used a biased estimator in many analyses, on the grounds that it was the right tool for the statistical job, and could vigorously defend that choice under cross examination.  
+Consider "bias." In ordinary speech, bias suggests prejudice, unfairness, or improper motive. In statistics, though, bias has a highly specific meaning. It describes a procedure that has a systematic tendency to overshoot or undershoot the quantity it is trying to estimate. Yet the potential semantic trap is obvious: a factfinder may hear that an analysis involves a "biased estimate" and infer that someone acted unfairly or with improper motive. But that does not follow. A statistical estimate can be biased without anyone being prejudiced. In many settings, a modestly biased estimator may even be preferred because it is more stable. I have used a biased estimator in many analyses, on the grounds that it was the right tool for the statistical job, and could vigorously defend that choice.  
 
 Or consider "significance." To lay people, significance means importance. But in statistics, significance means something almost pedantically narrow: that a result is sufficiently inconsistent with a specified null model, at a specified threshold, under specified assumptions. Here too, the word invites the wrong inference. A result declared in court to be "statistically significant" may sound like a result that matters. But it may be too small to matter legally or economically to anyone other than a statistician performing their day job. On the flip side, a legally important effect may fail to be statistically significant in a small sample.
 
@@ -54,11 +54,11 @@ But notice how the word "independent" now carries two meanings at once. The comp
 
 ## A pattern is not an explanation
 
-Even if the expert has established that hiring outcomes are statistically related, that does not yet tell us why they are related. There are many ways for hiring decisions to become probabilistically dependent without the hiring managers coordinating in the ordinary legal sense.
+Even if the expert has established that hiring outcomes are statistically related, that does not yet tell us why they are related. There are many ways for hiring decisions to become probabilistically dependent without the hiring managers coordinating in the legal sense.
 
-The mechanism is not hard to imagine. Separate managers can make separate decisions inside a shared system. If the offices draw from the same recruiting platform, use the same job posting, apply the same minimum qualifications, work within the same compensation bands, and rely on the same applicant-tracking system, their outcomes may resemble one another. Add a common screening tool, a common interview rubric, similar labor-market conditions, shared headcount pressures, and the same training about what experience matters for the role, and the probability point becomes intuitive. Learning something about one office’s outcomes may tell us something about another office’s outcomes because the offices are not operating in wholly separate worlds.
+The mechanism is not hard to imagine. Separate managers can make separate decisions inside a shared system. If the offices draw from the same recruiting platform, use the same job posting, apply the same minimum qualifications, work within the same compensation bands, and rely on the same applicant-tracking system, their outcomes may resemble one another. Add a common screening tool, a common interview rubric, similar labor-market conditions, shared headcount pressures, and the same basic understanding about what experience matters for the role, and the probability point becomes intuitive. Learning something about one office’s outcomes may tell us something about another office’s outcomes because, even if they didn't coordinate, the offices are not operating in wholly separate worlds.
 
-That observation can matter a great deal. A pattern of related outcomes across locations may suggest that the case is not merely about isolated local judgments. It may justify discovery into common practices. It may show that the company’s account of each decision as purely local is incomplete. It may point counsel toward the institutional machinery behind the decisions. But the point is that statistical dependence is a pattern requiring explanation, not an explanation by itself. Shared features can make the outcomes dependent in the probability sense, even when the actors are independent in the ordinary sense.
+That label---"statistically dependent decisions"---can matter a great deal. It may justify discovery into common practices or point counsel toward the institutional machinery behind the decisions. But the point is that statistical dependence is a pattern requiring explanation, not an explanation by itself.
 
 ## The legal danger
 

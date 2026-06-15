@@ -29,7 +29,7 @@ A model can pass the first test and still fail the second. Its rarity scores may
 
 ## The apple machine problem
 
-Imagine a machine designed to flag apples on a conveyor belt for inspection.
+Imagine a machine designed to flag apples on a conveyor belt for inspection. The goal is simple: find the rotten apples.
 
 One question is whether the machine is calibrated as an outlier detector. If it says that one apple in a thousand should trigger an alarm, then alarms should occur at about that rate whenever the machine is applied to apples drawn from the population it was built to assess. If alarms occur far more often, the machine’s rarity scale is wrong. It is overstating how unusual the apples are.
 

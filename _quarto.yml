@@ -17,8 +17,10 @@ website:
         href: teaching.qmd
       - text: Software
         href: software.qmd
-      - text: Consulting
-        href: consulting.qmd
+      - text: Statistics and Law
+        href: legal_essays.qmd
+      # - text: Consulting
+      #   href: consulting.qmd
       - text: CV
         href: assets/pdf/james-scott-cv.pdf
     right:

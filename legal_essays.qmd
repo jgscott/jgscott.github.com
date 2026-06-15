@@ -1,13 +1,13 @@
 ---
-title: "Statistical Evidence in Litigation"
+title: "Statistical Evidence and the Law"
 title-block-banner: false
 page-layout: full
 toc: false
 ---
 
-Much of my consulting work involves a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
+In the outside consulting work I do, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.
 
-These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what lawyers should ask before treating a numerical result as legally meaningful.
+These essays collect some thoughts from that experience. They discuss recurring issues that arise when models estimate damages, test for disparities, identify anomalies, or compare competing explanations. The focus is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what I would encourage laywers and fact-finders to ask before treating a numerical result as legally meaningful.
 
 ::: {.essay-grid}
 
@@ -42,7 +42,7 @@ A statistical anomaly may justify scrutiny, but rarity alone does not identify t
 :::
 
 ::: {.essay-card}
-### [What Can a Finished Product Prove About How It Was Made?](essays/product-process-statistical-evidence.qmd)
+### [What Can a Finished Product Prove About How It Was Made?](essays/products-process-statistical-evidence.qmd)
 Finished products may look alike for reasons that matter legally, or for reasons that do not. In manufacturing disputes, the strongest evidence often comes from designing an experiment that shows whether resemblance points to the disputed process or to ordinary lawful alternatives.
 :::
 
