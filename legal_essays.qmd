@@ -56,7 +56,7 @@ Counts of bad events can look powerful in litigation, but a count is only half o
 
 ::: {.essay-card}
 ### [The More Places You Look, The More You Find](essays/the-more-places-you-look-the-more-you-find.qmd)
-Multiple testing can distort p-values in product-liability, employment, procurement, securities, and healthcare-fraud cases when experts search across many outcomes, subgroups, definitions, time periods, or models. Lawyers evaluating statistical evidence should ask how much searching preceded the reported result before treating it as meaningful proof.
+A statistical expert may search a large body of records and find one pattern that looks unusually powerful. The legal problem is that the final calculation may treat that pattern as though it had been specified in advance, even though it was discovered only after many other possibilities were examined. This so-called "multiple testing problem" arises in areas as diverse as product liability, employment, procurement, securities, and healthcare fraud.
 :::
 
   

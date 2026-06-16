@@ -39,7 +39,7 @@ $$
 
 which is about 94 percent. In fact, the expected number of students who get eight heads is $700/256$, or about 2.7 students.
 
-Now suppose I find the first student who flipped eight heads and make a great show of it. I ask whether she has special powers. I inspect the coin, wondering aloud whether she swapped in a double-headed fake coin from Amazon. Everyone laughs, or at least pretends to, in the way 19-year-olds do when middle-aged professors make statistics jokes.  But certainly everyone understands that my surprise is ridiculous. The result only looks dramatic if I erase the search that led me to it and report the bare fact in isolation: this student flipped a coin eight times and got heads all eight times. Once the search is visible, the surprise disappears.
+Now suppose I find the first student who flipped eight heads and make a great show of it. I ask whether she has special powers. I inspect the coin, wondering aloud whether she swapped in a double-headed fake coin from Amazon. Everyone laughs. (Or at least they laugh as much as 19-year-olds ever do when middle-aged professors make statistics jokes.)  But certainly everyone understands that my surprise is ridiculous. The result only looks dramatic if I erase the search that led me to it and report the bare fact in isolation: this student flipped a coin eight times and got heads all eight times. Once the search is visible, the surprise disappears.
 
 ## The expert's table has a history
 
