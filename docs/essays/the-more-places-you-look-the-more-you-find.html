@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="James G. Scott">
+<meta name="description" content="How multiple testing and after-the-fact searches can turn ordinary variation into apparently significant litigation evidence.">
 
-<title>Statistical Evidence and the Law – James Scott</title>
+<title>Multiple Testing in Litigation: The More Places You Look, the More You Find – James Scott</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,21 +28,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">James Scott</span>
     </a>
   </div>
@@ -92,27 +94,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
+    <a class="nav-link" href="../books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./legal_essays.html" aria-current="page"> 
+    <a class="nav-link" href="../legal_essays.html"> 
 <span class="menu-text">Statistics and Law</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assets/pdf/james-scott-cv.pdf"> 
+    <a class="nav-link" href="../assets/pdf/james-scott-cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -130,22 +132,45 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#when-the-result-appears-after-the-search" id="toc-when-the-result-appears-after-the-search" class="nav-link active" data-scroll-target="#when-the-result-appears-after-the-search">When the result appears after the search</a></li>
+  <li><a href="#eight-heads-in-a-row" id="toc-eight-heads-in-a-row" class="nav-link" data-scroll-target="#eight-heads-in-a-row">Eight heads in a row</a></li>
+  <li><a href="#the-experts-table-has-a-history" id="toc-the-experts-table-has-a-history" class="nav-link" data-scroll-target="#the-experts-table-has-a-history">The expert’s table has a history</a></li>
+  <li><a href="#multiple-comparisons-void-the-warrant" id="toc-multiple-comparisons-void-the-warrant" class="nav-link" data-scroll-target="#multiple-comparisons-void-the-warrant">Multiple comparisons void the warrant</a></li>
+  <li><a href="#the-litigation-lesson" id="toc-the-litigation-lesson" class="nav-link" data-scroll-target="#the-litigation-lesson">The litigation lesson</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistical Evidence and the Law</h1>
+<h1 class="title">Multiple Testing in Litigation: The More Places You Look, the More You Find</h1>
+</div>
+
+<div>
+  <div class="description">
+    How multiple testing and after-the-fact searches can turn ordinary variation into apparently significant litigation evidence.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>James G. Scott </p>
+          </div>
+  </div>
     
   
     
@@ -156,42 +181,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In my consulting and expert-witness work, I encounter a common problem: a statistical analysis has been offered to support a legal conclusion, and the real question is whether the analysis actually does the job it has been asked to do.</p>
-<p>These essays collect some thoughts from that experience. They discuss recurring issues that arise when statistical models are used to test for disparities, identify anomalies, estimate damanges, or compare competing explanations. My focus here is practical rather than theoretical: when statistical evidence supports a legal inference, when it does not, and what I would encourage lawyers and fact-finders to ask before treating a numerical result as legally meaningful.</p>
-<p>For readers looking for a broader introduction to statistical and data-scientific reasoning, I also maintain a free textbook, <a href="https://bookdown.org/jgscott/DSGI/">Data Science in R: A Gentle Introduction</a>.)</p>
-<p>For consulting and expert-witness inquiries, see my <a href="./consulting.html">Consulting</a> page.</p>
-<div class="essay-grid">
-<section id="beware-of-expert-words-with-two-meanings" class="level3 essay-card">
-<h3 data-anchor-id="beware-of-expert-words-with-two-meanings"><a href="./essays/when-expert-words-have-two-meanings.html">Beware of expert words with two meanings</a></h3>
-<p>Technical words like “bias,” “significance,” and “independent” can mislead when their statistical meanings are allowed to borrow weight from ordinary English. In litigation, the crucial question is often not whether the expert’s technical statement is true, but what legal or factual conclusions actually follow from it.</p>
+<section id="when-the-result-appears-after-the-search" class="level2">
+<h2 data-anchor-id="when-the-result-appears-after-the-search">When the result appears after the search</h2>
+<p>Suppose a product-liability case alleges that toaster ovens made by Dingbat Kitchenworks have a dangerous propensity to overheat. The plaintiff retains an expert, who sifts through years of warranty claims, customer complaints, service records, return data, and internal quality reports.</p>
+<p>Eventually, the pattern appears: the MorningMax 9000, a private-label model sold through one retailer and assembled during one six-month period, has a strikingly high number of consumer complaints using words like “smoke” and “burning.”</p>
+<p>What should a court make of that pattern? The answer depends on what question was asked before the data were examined. If the theory from the beginning was that this model, made for this retailer during this production window, was affected by a specific manufacturing defect, the result may be powerful evidence. But if the expert found the pattern only after searching through hundreds of possible combinations, the same result means much, much less.</p>
 </section>
-<section id="when-a-healthcare-fraud-model-sees-a-green-apple" class="level3 essay-card">
-<h3 data-anchor-id="when-a-healthcare-fraud-model-sees-a-green-apple"><a href="./essays/fraud-model-untested-accusation.html">When a healthcare fraud model sees a green apple</a></h3>
-<p>Healthcare fraud models can identify providers whose billing patterns are unusual, but unusual billing is not the same as fraud. This essay explains why counsel should demand both statistical calibration and substantive validation before a billing outlier is treated as evidence of false claims.</p>
+<section id="eight-heads-in-a-row" class="level2">
+<h2 data-anchor-id="eight-heads-in-a-row">Eight heads in a row</h2>
+<p>A simple example about coin flipping shows why. Suppose I walk into my introductory data science class and ask the student in the center of the front row to flip a coin eight times.</p>
+<p>She gets heads on the first flip. Then heads again. Then a third time. By the time she has flipped eight heads in a row, everyone in the room is paying attention. That outcome has probability</p>
+<p>[ ()^8 = , ]</p>
+<p>or about 0.4 percent. If the question was specified in advance—this student, eight flips all coming up heads—the result is genuinely unusual.</p>
+<p>But now suppose it’s my large introductory data science course of 700 students, and I ask everyone in the class to do the same thing. Each student flips a coin eight times. I then walk around the room looking for someone who got eight heads in a row.</p>
+<p>That changes the meaning of the result. For any one student, eight heads is still unlikely. But across 700 students, the chance that at least one student gets eight heads is</p>
+<p>[ 1 - ()^{700}, ]</p>
+<p>which is about 94 percent. In fact, the expected number of students who get eight heads is (700/256), or about 2.7 students.</p>
+<p>So if I find a student who flipped eight heads, have I found something remarkable? Not really. I have found just what I should have expected to find after looking in 700 places. The result looks dramatic only if the search is hidden. Once the search is visible, the surprise disappears.</p>
 </section>
-<section id="when-ai-performance-becomes-a-legal-dispute" class="level3 essay-card">
-<h3 data-anchor-id="when-ai-performance-becomes-a-legal-dispute"><a href="./essays/predictive-ai-performance-disputes.html">When AI Performance Becomes a Legal Dispute</a></h3>
-<p>When an AI tool sold to improve a business outcome produces poor results, the dispute turns on statistical questions about what the system was promised to do and how that promise was tested. Lawyers need to connect the observed failure to a specific account of the model’s target, validation, reliability, deployment, and causal effect.</p>
+<section id="the-experts-table-has-a-history" class="level2">
+<h2 data-anchor-id="the-experts-table-has-a-history">The expert’s table has a history</h2>
+<p>The coin example tells us what questions we should be asking about the MorningMax 9000.</p>
+<p>By the time the expert report is filed, the litigation has a clean statistical object. A table shows that MorningMax 9000 toaster ovens, sold as a private label through one retailer and assembled during one six-month period, had an unusually high rate of complaints using words like “smoke” and “burning.” The expert reports that the result is statistically significant. The table is easy to quote and gives the case a clear center of gravity.</p>
+<p>But there are two paths for a table like that can enter a case, and the difference between them is everything.</p>
+<p>In the first path, the legal theory came first. The case had focused on the MorningMax 9000, that retailer, and that production window from the very beginning. The claim was that Dingbat changed something about the heating element for that private-label run, and smoke-and-burning complaints were the predicted consequence. The expert then tested the specific comparison that the theory called for.</p>
+<p>This is the single-comparison path. It is like choosing the student in the front row before the coin is flipped. If we see eight heads in a row, the evidence is likely convincing that something fishy is going on.</p>
+<p>But in the second path, the search came first, prior to the legal theory acquiring its specific form. The expert began with the broader universe of Dingbat records and examined models, retailers, factories, suppliers, warranty codes, complaint terms, service diagnoses, and production windows. Maybe at first, the overall failure rate for Dingbat’s toaster ovens did not look especially high. But the expert kept looking, slicing the data into ever more granular subsets. The MorningMax 9000 table became important because it was the one table, among many that were checked, that looked most alarming after the search.</p>
+<p>This is the multiple-comparison path. It is like walking around the room after 700 students have flipped coins and finding the one who got eight heads.</p>
 </section>
-<section id="anomaly-is-not-causation" class="level3 essay-card">
-<h3 data-anchor-id="anomaly-is-not-causation"><a href="./essays/anomaly-is-not-causation.html">Anomaly Is Not Causation</a></h3>
-<p>When an expert says a pattern of behavior is statistically unlikely, that assessment depends on a mathematical model of “ordinary conduct” that the expert has constructed. Lawyers should examine that model carefully before allowing the mere fact of a statistical anomaly to do the work of legal inference.</p>
+<section id="multiple-comparisons-void-the-warrant" class="level2">
+<h2 data-anchor-id="multiple-comparisons-void-the-warrant">Multiple comparisons void the warrant</h2>
+<p>A statistical test has a kind of warranty. Nobody calls it that, but that is what it is: if the question was specified in advance, and the assumptions are correct, the p-value has its advertised meaning. Once the question is selected after a search through the data, the warranty is voided. The reported p-value is just plain wrong.</p>
+<p>That is generically referred to as the multiple-testing problem in statistics. The court sees one table, one p-value, and one expert conclusion, rendered as though this particular set of toaster ovens were the only ones examined. But that p-value belongs to an entirely different parallel universe: one where no slicing, dicing, and searching took place, and where the expert decided to ask about the MorningMax 9000 before seeing what the MorningMax 9000 would show. It does not belong to the universe that actually produced the evidence.</p>
+<p>A useful cross-examination would therefore begin with the path, not the results themselves:</p>
+<ul>
+<li>Before you looked at any of the complaint data, had you identified the MorningMax 9000 as the product of concern? (If no, follow up with: So you looked at many other products besides the MorningMax 9000 to see if they had issues?)</li>
+<li>Before you ran the analysis, had you selected this six-month window as the relevant subset of the data? (If no: So you looked at many other time periods to see if those revealed an issue, too?).</li>
+<li>Before you examined the complaints, had you decided that ‘smoke’ and ‘burning’ were the only relevant search terms? (If no: so how many search terms did you examine?)</li>
+<li>So how many total combinatinos of other toaster models, retailers, production windows, and complaint phrases did you examine before you calculatde the figures in this table?</li>
+</ul>
+<p>The answers might show a long, meandering statistical walk through Dingbat’s records, with the final table chosen because it was the only one, of many possibilities, worth putting in the report.</p>
 </section>
-<section id="what-can-a-finished-product-prove-about-how-it-was-made" class="level3 essay-card">
-<h3 data-anchor-id="what-can-a-finished-product-prove-about-how-it-was-made"><a href="./essays/products-process-statistical-evidence.html">What Can a Finished Product Prove About How It Was Made?</a></h3>
-<p>Finished products may look alike for reasons that matter legally, or for reasons that do not. In manufacturing disputes, the strongest evidence often comes from designing an experiment that shows whether resemblance points to the disputed process or to ordinary lawful alternatives.</p>
-</section>
-<section id="the-denominator-problem-in-statistical-evidence" class="level3 essay-card">
-<h3 data-anchor-id="the-denominator-problem-in-statistical-evidence"><a href="./essays/denominator_problem_statistical_evidence.html">The Denominator Problem in Statistical Evidence</a></h3>
-<p>Counts of bad events can look powerful in litigation, but a count is only half of a rate. Lawyers evaluating statistical evidence should ask what population, exposure, or opportunity produced the count before treating it as proof of risk, systemic conduct, medical necessity, damages, or classwide harm.</p>
-</section>
-<section id="the-more-places-you-look-the-more-you-find" class="level3 essay-card">
-<h3 data-anchor-id="the-more-places-you-look-the-more-you-find"><a href="./essays/the-more-places-you-look-the-more-you-find.html">The More Places You Look, The More You Find</a></h3>
-<p>Multiple testing can distort p-values in product-liability, employment, procurement, securities, and healthcare-fraud cases when experts search across many outcomes, subgroups, definitions, time periods, or models. Lawyers evaluating statistical evidence should ask how much searching preceded the reported result before treating it as meaningful proof.</p>
-</section>
-</div>
+<section id="the-litigation-lesson" class="level2">
+<h2 data-anchor-id="the-litigation-lesson">The litigation lesson</h2>
+<p>The same problem can arise in any case, from on employment to securities to healthcare fraud, where an expert searches across many outcomes, subgroups, definitions, time periods, or models. The details change, but the question remains the same: how much searching preceded the reported result?</p>
+<p>Statistical significance always depends on the question that was asked. When the question emerges from the search itself, the reported p-value no longer carries its usual meaning. A statistical expert can account for the search by applying a multiple-testing correction, simulating the search process, or asking how often a search of comparable size would produce a result that impressive by chance. Once the search is accounted for, evidence that looked dramatic in the expert report may become much less impressive.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -626,5 +663,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

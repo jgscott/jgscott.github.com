@@ -54,6 +54,11 @@ Finished products may look alike for reasons that matter legally, or for reasons
 Counts of bad events can look powerful in litigation, but a count is only half of a rate. Lawyers evaluating statistical evidence should ask what population, exposure, or opportunity produced the count before treating it as proof of risk, systemic conduct, medical necessity, damages, or classwide harm.
 :::
 
+::: {.essay-card}
+### [The More Places You Look, The More You Find](essays/the-more-places-you-look-the-more-you-find.qmd)
+Multiple testing can distort p-values in product-liability, employment, procurement, securities, and healthcare-fraud cases when experts search across many outcomes, subgroups, definitions, time periods, or models. Lawyers evaluating statistical evidence should ask how much searching preceded the reported result before treating it as meaningful proof.
+:::
+
   
 :::
   
