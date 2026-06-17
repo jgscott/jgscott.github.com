@@ -21,13 +21,13 @@ The answer depends on what question was asked before the data were examined. If 
 
 A simple example about coin flipping shows why. Suppose I walk into my introductory data science class, hand a quarter to the student in the center of the front row, and ask her to flip it eight times.
 
-She gets heads on the first flip. Then heads again. Then a third time, then again. Now everyone in the room is paying attention. Let's suppose she flips eight times and gets heads each time.  That outcome has probability
+She gets heads on the first flip. Then heads again. Then a third time, then again. Now everyone in the room is paying attention. Suppose she flips eight times and gets heads each time. That outcome has probability
 
 $$
 \left(\frac{1}{2}\right)^8 = \frac{1}{256},
 $$
 
-or about 0.4 percent. If the question was specified in advance---this student, eight flips all coming up heads---the result is genuinely unusual.
+or about 0.4 percent. If the question was specified in advance (this student, eight flips all coming up heads), the result is genuinely unusual.
 
 But my introductory data science course has something like 700 students in it. Now let's suppose I ask everyone in the class to do the same thing. Each student flips a coin eight times. I then walk around the room looking for someone who got eight heads in a row.
 
@@ -39,7 +39,7 @@ $$
 
 which is about 94 percent. In fact, the expected number of students who get eight heads is $700/256$, or about 2.7 students.
 
-Now suppose I find the first student who flipped eight heads and make a great show of it. I ask whether she has special powers. I inspect the coin, wondering aloud whether she swapped in a double-headed fake coin from Amazon. Everyone laughs. (Or at least they laugh as much as 19-year-olds ever do when middle-aged professors make statistics jokes.)  But certainly everyone understands that my surprise is ridiculous. The result only looks dramatic if I erase the search that led me to it and report the bare fact in isolation: this student flipped a coin eight times and got heads all eight times. Once the search is visible, the surprise disappears.
+Now suppose I find the first student who flipped eight heads and make a great show of it. I ask whether she has special powers. I inspect the coin, wondering aloud whether she swapped in a double-headed fake coin from Amazon. Everyone laughs. (Or at least they laugh as much as 19-year-olds ever do when middle-aged professors make statistics jokes.) But everyone understands that my surprise is ridiculous. The result only looks dramatic if I erase the search that led me to it and report the bare fact in isolation: this student flipped a coin eight times and got heads all eight times. Once the search is visible, the surprise disappears.
 
 ## The expert's table has a history
 
@@ -47,7 +47,7 @@ The coin example tells us what questions we should be asking about the MorningMa
 
 By the time the expert report is filed, the litigation has a purportedly clean statistical result. A table shows that MorningMax 9000 toaster ovens, sold as a private label through one retailer and assembled during one six-month period, had an unusually high rate of complaints using words like “smoke” and “burning.” The expert reports that the elevated incident rate is statistically significant. The table is easy to quote and gives the case a clear center of gravity.
 
-But as with the coin example, there are two paths for a table like that to enter a case, and the difference between them is everything.  
+But as with the coin example, there are two paths for a table like that to enter a case, and the difference between them is everything.
 
 In the first path, the legal theory came first. The case had focused on the MorningMax 9000, that retailer, and that production window from the very beginning. The claim was that Dingbat changed something about the heating element for that private-label run, and smoke-and-burning complaints were the predicted consequence. The expert then tested the specific comparison that the theory called for.
 
@@ -57,11 +57,11 @@ But in the second path, the search came first, prior to the legal theory acquiri
 
 This path is like walking around the room after 700 students have flipped coins and finding the one who got eight heads.
 
-This is generically referred to as the multiple-testing problem in statistics. The court sees one table, one calculation revealing a large statistical anomaly, and one expert conclusion, rendered as though this particular set of toaster ovens were the only ones examined. But that conclusion belongs to an entirely different parallel universe, one where no slicing, dicing, and searching took place, and where the expert decided to ask about the MorningMax 9000 before seeing what the MorningMax 9000 would show. It does not belong to the universe that actually produced the evidence.
+Statisticians call this the multiple-testing problem. The court sees one table, one calculation revealing a large statistical anomaly, and one expert conclusion, rendered as though this particular set of toaster ovens were the only ones examined. But that conclusion belongs to an entirely different parallel universe, one where no slicing, dicing, and searching took place, and where the expert decided to ask about the MorningMax 9000 before seeing what the MorningMax 9000 would show. It does not belong to the universe that actually produced the evidence.
 
 ## Multiple comparisons void the warranty
 
-A statistical test has a kind of warranty. Nobody calls it that, but that is what it is: if the question was specified in advance, the assumptions are correct, and the rule for what counts as evidence was fixed before the data were examined, the test controls how often that rule will lead you astray.  A statistical report relies on that warranty when it asks a court to assign evidentiary weight to a numerical result.
+A statistical test has a kind of warranty. Nobody calls it that, but that is what it is: if the question was specified in advance, the assumptions are correct, and the rule for what counts as evidence was fixed before the data were examined, the test controls how often that rule will lead you astray. A statistical report relies on that warranty when it asks a court to assign evidentiary weight to a numerical result.
 
 To understand this, return to the coin example. If I choose one student in advance and decide that eight heads in a row will make me suspect something magical is happening, I will end up falsely believing in magic only about 0.4 percent of the time. That is the warranty of the test.
 
@@ -69,15 +69,15 @@ But after searching across 700 students, I do not get to keep that warranty. If 
 
 That is what happens when the MorningMax 9000 table is selected after a broad search through Dingbat’s records. The reported statistical conclusion borrows the warranty from the single-comparison path, even though the expert took the multiple-comparison path. But as in the coin example, the analyst cannot take the broad-search path and then claim the false-positive protection of the pre-specified path.
 
-How much worse does the warranty get? The exact number depends on how much searching took place. A useful cross-examination would therefore begin with the path, not the results themselves:  
+How much worse does the warranty get? The exact number depends on how much searching took place. A useful cross-examination would therefore begin with the path, not the results themselves:
 
 - Before you looked at any of the complaint data, had you identified the MorningMax 9000 as the product of concern? (If no, follow up with: So you looked at many other products besides the MorningMax 9000 to see if they had issues?)
-- Before you ran the analysis, had you selected this six-month window as the relevant subset of the data? (If no: So you looked at many other time periods to see if those revealed an issue, too?). 
-- Before you examined the complaints, had you decided that ‘smoke’ and ‘burning’ were the only relevant search terms?  (If no: so how many search terms did you examine?)
-- So how many total combinatinos of other toaster models, retailers, production windows, and complaint phrases did you examine before you calculatde the figures in this table?
+- Before you ran the analysis, had you selected this six-month window as the relevant subset of the data? (If no: So you looked at many other time periods to see if those revealed an issue, too?)
+- Before you examined the complaints, had you decided that ‘smoke’ and ‘burning’ were the only relevant search terms? (If no: so how many search terms did you examine?)
+- So how many total combinations of other toaster models, retailers, production windows, and complaint phrases did you examine before you calculated the figures in this table?
 
-The answers might show a long, meandering statistical walk through Dingbat’s records, with the final table chosen because it was the only one, of many possibilities, worth putting in the report.
+The answers might show a long, meandering statistical walk through Dingbat’s records, with the final table chosen because it was the only one, of many possibilities, useful to the report.
 
 ## The litigation lesson
 
-The multiple-testing problem can arise in any case where an expert searches across many outcomes, subgroups, definitions, time periods, or models. The details change,  from employment to securities to healthcare fraud, but the question remains the same: how much searching preceded the reported result? Once the search is accounted for, evidence that looked dramatic in the expert report may become much less impressive.
+The multiple-testing problem can arise in any case where an expert searches across many outcomes, subgroups, definitions, time periods, or models. The details change, from employment to securities to healthcare fraud, but the question remains the same: how much searching preceded the reported result? Once the search is accounted for, evidence that looked dramatic in the expert report may become much less impressive.
