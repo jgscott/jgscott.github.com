@@ -4,6 +4,19 @@ title: "Teaching"
 
 All current and recent courses are run through Canvas, per UT requirements. Below are selected public and archived materials.
 
+## Teaching essays
+
+Occasional essays on statistical thinking, pedagogy, and what I've found worth emphasizing (or de-emphasizing) in my courses.  
+
+::: {.essay-grid}
+
+::: {.essay-card}
+### [Where Does the Uncertainty Come From?](teaching_essays/uncertainty-origin.qmd)
+The canonical stat-101 sampling story is useful, but it addresses only one of several genuine sources of uncertainty in real data analysis. Before reaching for any tools, teach students to ask what kind of uncertainty they actually face.
+:::
+
+:::
+
 ## Teaching areas
 
 - Statistical modeling

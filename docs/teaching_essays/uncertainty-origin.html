@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="James G. Scott">
+<meta name="description" content="The canonical sampling story is useful, but it addresses only one of several genuine sources of uncertainty in real data analysis. Before reaching for any tool, teach students to ask what kind of uncertainty they actually face.">
 
-<title>Consulting and Litigation – James Scott</title>
+<title>Where Does the Uncertainty Come From? – James Scott</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,20 +25,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -77,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">James Scott</span>
     </a>
   </div>
@@ -88,27 +90,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
+    <a class="nav-link" href="../books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./legal_essays.html"> 
+    <a class="nav-link" href="../legal_essays.html"> 
 <span class="menu-text">Statistics and Law</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assets/pdf/james-scott-cv.pdf"> 
+    <a class="nav-link" href="../assets/pdf/james-scott-cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -126,22 +128,44 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#when-the-sampling-story-fits-and-when-it-doesnt" id="toc-when-the-sampling-story-fits-and-when-it-doesnt" class="nav-link active" data-scroll-target="#when-the-sampling-story-fits-and-when-it-doesnt">When the sampling story fits, and when it doesn’t</a></li>
+  <li><a href="#how-the-curriculum-got-here" id="toc-how-the-curriculum-got-here" class="nav-link" data-scroll-target="#how-the-curriculum-got-here">How the curriculum got here</a></li>
+  <li><a href="#five-sources-of-statistical-uncertainty" id="toc-five-sources-of-statistical-uncertainty" class="nav-link" data-scroll-target="#five-sources-of-statistical-uncertainty">Five sources of statistical uncertainty</a></li>
+  <li><a href="#when-the-framework-breaks-down" id="toc-when-the-framework-breaks-down" class="nav-link" data-scroll-target="#when-the-framework-breaks-down">When the framework breaks down</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Consulting and Litigation</h1>
+<h1 class="title">Where Does the Uncertainty Come From?</h1>
+</div>
+
+<div>
+  <div class="description">
+    The canonical sampling story is useful, but it addresses only one of several genuine sources of uncertainty in real data analysis. Before reaching for any tool, teach students to ask what kind of uncertainty they actually face.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>James G. Scott </p>
+          </div>
+  </div>
     
   
     
@@ -152,16 +176,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I sometimes serve as a consulting statistical expert in litigation matters where data analysis or statistical modeling are central to the legal questions. I conduct and evaluate analyses to assess what the data can support, what assumptions are required, and whether another party’s conclusions are stronger than the evidence allows. I’ve collected some <a href="./legal_essays.html">short essays from my experience</a>, in the hope that they help lawyers recognize recurring statistical issues before those issues become decisive.</p>
-<p>My work is most relevant when a case depends on samples, models, algorithms, audits, enforcement analyses, or large operational data sets. These issues often arise in disputes involving liability, damages, causation, IP, compliance, fraud, collusion, or classwide proof.</p>
-<section id="qualifications" class="level2">
-<h2 data-anchor-id="qualifications">Qualifications</h2>
-<p>I am Professor and Chair of Statistics and Data Sciences at The University of Texas at Austin, with faculty appointments in Statistics and Data Sciences and the McCombs School of Business. My academic work is about how to draw reliable conclusions from complex data, spanning statistics, machine learning, AI, and interdisciplinary scientific collaborations.</p>
-<p>I take pride in explaining complex statistical and machine-learning ideas clearly to non-specialists. I have won multiple university teaching awards, including the Regents’ Outstanding Teaching Award, the highest teaching honor in the University of Texas System. I am also the coauthor of <a href="https://www.amazon.com/AIQ-People-Machines-Smarter-Together/dp/1250209013/ref=tmm_pap_swatch_0">AIQ: How People and Machines Are Smarter Together</a>, a book on the statistical foundations of artificial intelligence written for a broad audience and favorably reviewed by outlets such as the <em>Times</em> and <em>The Wall Street Journal</em>.</p>
+<p>I teach a course called Statistical Thinking for freshmen statistics majors at UT. The canonical sampling story is something we talk about a lot: you have a population, you draw a random sample, and your uncertainty comes from the fact that a different sample would have given slightly different numbers. It’s a good story. The machinery it generates (sampling distributions, standard errors, confidence intervals, p-values) is useful. And for many decades, it was a sensible story to lead with.</p>
+<p>But I’ve grown dissatisfied with treating that story as the main foundation for an intro stats course. The data problems that populate the actual world today look almost nothing like a random sample drawn from a well-defined population. A curriculum that never ventures past that setup leaves students statistically literate in a dialect that most of their future work won’t be written in.</p>
+<section id="when-the-sampling-story-fits-and-when-it-doesnt" class="level2">
+<h2 data-anchor-id="when-the-sampling-story-fits-and-when-it-doesnt">When the sampling story fits, and when it doesn’t</h2>
+<p>I’ve started instead treating the following series of questions as the organizing theme (and, I think, as a working definition of what it means to think statistically). Here’s a claim involving a number. That number gives us an imperfect estimate of something. What is it trying to estimate, and why is it imperfect? Where does the error or uncertainty come from?</p>
+<p>Sometimes the answers to these questions do, indeed, lead us directly to the canonical Stat-101 tools. For example, I’ve seen our university administration cite this statistic: a survey of 172 UT-Austin undergraduates estimates that 15.1% have experienced food insecurity in the last twelve months. That’s a sampling story through and through. We asked 172 students; a different 172 would have given slightly different numbers, so we need a margin of error to convey how much our estimate might move if we’d drawn a different sample. The usual inference framework applies, and reporting a confidence interval is the right thing to do.</p>
+<p>But now consider a different claim: <a href="https://pubmed.ncbi.nlm.nih.gov/29777663/">a study of nearly 3,000 contraceptive users</a> finds that women on hormonal methods gained 2 more kg over the study period than women on non-hormonal methods. The sampling uncertainty here is real, but it’s almost beside the point, and focusing on it may give a false sense of statistical precision. The more important question is whether the two groups (users of hormonal vs.&nbsp;non-hormonal methods) were comparable in the first place. Many women actively choose non-hormonal contraception precisely because they’ve heard the claim that hormonal methods cause weight gain, and because they’re already more weight-conscious than the average person. If that self-selection is at work, the 2kg difference conflates the effect of the contraceptive method with the effect of being the kind of person who avoids hormonal contraception. The standard error of the mean captures none of this. You could enroll 300,000 participants instead of 3,000, watch the confidence interval shrink to a sliver, and the (unknown!) bias would remain exactly as large. You’re left with narrow uncertainty of the sampling kind, profound uncertainty of a completely different kind. (The same failure mode shows up in political polling and has been treated ad nauseam since the 2016 U.S. presidential election.)</p>
 </section>
-<section id="contact" class="level2">
-<h2 data-anchor-id="contact">Contact</h2>
-<p>You can reach me at james dot scott at austin dot utexas dot edu. For litigation inquiries, please provide the party names, brief matter description if available, jurisdiction or forum, side represented, relevant deadlines, and a brief description of the statistical or data-related issue. This information is needed for an initial conflict check before any substantive discussion.</p>
+<section id="how-the-curriculum-got-here" class="level2">
+<h2 data-anchor-id="how-the-curriculum-got-here">How the curriculum got here</h2>
+<p>The Stat-101 curriculum has deep roots in mid-20th-century applied work: agricultural field trials comparing fertilizer treatments across plots, reliability sampling on factory assembly lines, random digit dialing in political polling. All of these fit the canonical sampling story almost perfectly. Going deep on t-tests and confidence intervals was, in that world, going deep on the right thing.</p>
+<p>But the data problems that our students today will encounter are a lot more heterogeneous, which creates a severe opportunity cost of placing so much emphasis on the sampling story. A typical intro course devotes weeks to questions like: t-interval or z-interval? Pooled or unpooled variance estimate? Paired or unpaired comparison? Consider what order of question these even are. A first-order question asks: what’s our best estimate from this data, even a rough one? A second-order question asks: where does the uncertainty in that estimate come from? But the questions that gum up most intro syllabi answer neither of those. They’re <em>third-order</em> questions, about which of several methods for quantifying one narrow kind of statistical uncertainty is slightly more appropriate than another. A student who emerges fluent in the pooled two-sample t-test has necessarily missed a lot of opportunities to ask whether the dominant source of uncertainty in their problem looks anything like the canonical sampling story.</p>
+</section>
+<section id="five-sources-of-statistical-uncertainty" class="level2">
+<h2 data-anchor-id="five-sources-of-statistical-uncertainty">Five sources of statistical uncertainty</h2>
+<p>My own course is organized around five common sources of statistical uncertainty instead, and students practice identifying which is at play before reaching for any tool:</p>
+<ol type="1">
+<li>Our data consist of a sample, and we want to generalize to a wider population.</li>
+<li>Our data come from a randomized experiment, and we want to know whether the observed effect is real or just dumb luck in who got randomized where.</li>
+<li>We want to use data to make a prediction, and we’re betting the future will resemble the past.</li>
+<li>Our observations are subject to measurement or reporting error.</li>
+<li>Our data arise from an intrinsically random or variable process, not because we sampled imperfectly, but because the thing itself fluctuates.</li>
+</ol>
+<p>Consider measurement error. Before the speed of light was fixed by definition in 1983, it had to be estimated from physical experiments, each yielding a slightly different result due to instrument limitations, atmospheric interference, and observer error. The uncertainty is real, it matters, and averaging those repeated measurements and reporting their spread is a sensible statistical exercise. But it would be pedagogically bizarre to present this as a story about drawing a random sample from a population. The speed of light has one true value; there is no population of speed-of-light measurements from which we are sampling, only an imperfect measuring process applied repeatedly. The natural mental model for measurement error is not “what if we’d surveyed different people?” but “what if we’d run this measurement again?” The math might be similar, but the story is completely different.</p>
+<p>Or consider what happens when we take measurements of an intrinsically variable phenomenon. Try this: count your pulse for 15 seconds. Wait five minutes, then do it again. You’ll likely get a slightly different number. That’s because your heart rate isn’t some fixed immutable property of you, like the number of chromosomes you have; it varies from moment to moment, influenced by stress, activity, temperature, and dozens of other factors. The best we can probably say is that a person has a “typical” resting heart rate, which we might estimate by averaging many measurements over time, but which we can never pin down with perfect accuracy from any single reading. The same is true of any intrinsically variable process: how long a customer will wait on hold, how many cars will pass an intersection in the next hour, how many points a basketball team will score in a given game. For all of these, the relevant question isn’t “did we sample the right people?” but “how much does this process naturally vary, and by how much might a single observation differ from the long-run average?”</p>
+<p>What makes these five sources of uncertainty “statistical” is that in each case, data can tell you how wrong you might be. Survey a different random sample and you’d get a different number; study how much estimates vary across many samples and you can put a concrete bound on that error. Run a physical measurement again and you get a slightly different reading; pay close attention to how much those readings scatter and you get an estimate of the instrument’s precision. The uncertainty is real in all five cases, but it’s also tractable: data can estimate how wrong you might be, and that estimate is itself trustworthy.</p>
+</section>
+<section id="when-the-framework-breaks-down" class="level2">
+<h2 data-anchor-id="when-the-framework-breaks-down">When the framework breaks down</h2>
+<p>I find it useful to present students with examples where the right framework is not immediately obvious. Take the fact that NFL teams averaged 3.46 punts per game in the 2022 season. As a description of the past, that number is exact. There is no population being sampled, no random draw, no margin of error. It is simply what happened. But change the question slightly. Suppose we want to know whether 3.46 punts per game is unusually low by recent historical standards. Does 2022 represent a genuine shift in strategy, or just normal year-to-year variation? Now we’re treating each season’s average as a realization of some underlying process: the game of professional football as currently played, with its rules, coaching philosophies, and roster compositions. Statistical inference is useful here. But the story is not “we sampled from the population of NFL seasons.” Any such notional population is a bizarre fiction. We’re implicitly modeling football as a stochastic process and asking whether 2022’s result was surprising under that model. That’s a legitimate inference, just not the one the sampling story tells.</p>
+<p>But equally important, and harder to teach, is recognizing when none of the five dominates, and when the primary source of uncertainty is one that data cannot meaningfully address. Consider the question: what fraction of cars sold in 2050 will be electric? Forecasts of this kind proliferate, complete with trend lines and confidence intervals projected decades into the future. The presentation of such nonsense may be statistical, but the underlying logic is not. The dominant uncertainty has nothing to do with sampling variability, randomized experiments, measurement error, or intrinsic process variance. It’s uncertainty about what governments will mandate, how much battery costs will fall, what new technologies will emerge, and how consumer preferences will shift over a quarter century of change. Fitting a curve to current EV adoption data and extending it to 2050 just assumes most of that uncertainty away.</p>
+<p>Something has to go to make room for all these ideas. In my class, that means I don’t spend much time on the t-distribution, and I don’t mention paired comparisons or equal versus unequal group-wise variances at all. That’s my recalibration of the opportunity cost. Whether to use a pooled or unpooled variance estimate has never, in my experience, been the thing that determined whether a data analysis was trustworthy or misleading. But recognizing which source of uncertainty dominates a given problem has, constantly. So has recognizing that the dominant source of uncertainty is one no statistical analysis will ever resolve.</p>
+<p>The right habit to teach, and the one that takes longest to form, is to ask “where does the uncertainty come from here?” before picking up any tools. Sometimes the answer is sampling. Often it isn’t. A student who learns to ask that question has something the sampling story alone cannot give them: a statistical vocabulary that fits the actual world they’ll work in.</p>
 
 
 </section>
@@ -619,5 +666,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
